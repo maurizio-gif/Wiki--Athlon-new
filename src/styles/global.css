@@ -185,3 +185,16 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
   .section-title { font-size: 22px; }
   .area-pill { font-size: 13px; padding: 7px 14px; }
 }
+
+/* ── ARTICLE IMAGES ── */
+.article-body img {
+  max-width: 480px;
+  width: 100%;
+  display: block;
+  margin: 24px 0;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+@media (max-width: 768px) {
+  .article-body img { max-width: 100%; }
+}

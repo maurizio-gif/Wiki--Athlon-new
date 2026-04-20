@@ -23,6 +23,14 @@ tags: ["certificato medico", "idoneità", "agonistico", "non agonistico", "6 ann
 - ECG a riposo almeno **una volta nella vita**
 - ECG annuale per over 60 con fattori di rischio cardiovascolare o patologie croniche
 
+### Facsimile del modello
+
+Questo è il modello previsto dalla normativa vigente:
+
+![Facsimile certificato medico non agonistico](/facsimile-certificato.jpg)
+
+[📄 Consulta la normativa in vigore](https://www.trovanorme.salute.gov.it/norme/renderNormsanPdf?anno=0&codLeg=49865&parte=1%20&serie=)
+
 ---
 
 ## Certificato AGONISTICO
