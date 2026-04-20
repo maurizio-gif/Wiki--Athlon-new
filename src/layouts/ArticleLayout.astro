@@ -1,0 +1,127 @@
+---
+import Base from './Base.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  title: string;
+  description: string;
+  area: string | string[];
+  tags?: string[];
+  slug: string;
+}
+
+const { title, description, area, tags = [], slug } = Astro.props;
+
+// Normalizza area come array
+const areas = Array.isArray(area) ? area : [area];
+
+// Prendi tutti gli articoli per sidebar e navigazione
+const allArticles = await getCollection('articles');
+const sorted = allArticles.sort((a, b) => {
+  const aArea = Array.isArray(a.data.area) ? a.data.area[0] : a.data.area;
+  const bArea = Array.isArray(b.data.area) ? b.data.area[0] : b.data.area;
+  return aArea.localeCompare(bArea) || a.data.title.localeCompare(b.data.title);
+});
+
+// Aree uniche per sidebar
+const allAreas: string[] = [];
+allArticles.forEach(a => {
+  const arr = Array.isArray(a.data.area) ? a.data.area : [a.data.area];
+  arr.forEach(ar => { if (!allAreas.includes(ar)) allAreas.push(ar); });
+});
+allAreas.sort();
+
+// Conteggio per area
+const areaCount: Record<string, number> = {};
+allAreas.forEach(ar => {
+  areaCount[ar] = allArticles.filter(a => {
+    const arr = Array.isArray(a.data.area) ? a.data.area : [a.data.area];
+    return arr.includes(ar);
+  }).length;
+});
+
+// Prev / Next nella stessa area primaria
+const primaryArea = areas[0];
+const sameAreaArticles = sorted.filter(a => {
+  const arr = Array.isArray(a.data.area) ? a.data.area : [a.data.area];
+  return arr[0] === primaryArea;
+});
+const currentIdx = sameAreaArticles.findIndex(a => a.slug === slug);
+const prevArticle = sameAreaArticles[currentIdx - 1];
+const nextArticle = sameAreaArticles[currentIdx + 1];
+
+const currentURL = `https://wiki.athlonroma.it/wikiathlon/${slug}/`;
+---
+
+<Base title={title} description={description}>
+  <div class="page-wrap">
+    <nav class="sidebar">
+      <div class="sidebar-label">Categorie</div>
+      <a href="/" class="sidebar-link">
+        Tutti <span class="sidebar-count">{allArticles.length}</span>
+      </a>
+      <div class="sidebar-divider"></div>
+      {allAreas.map(ar => (
+        <a
+          href={`/?area=${encodeURIComponent(ar)}`}
+          class={`sidebar-link ${areas.includes(ar) ? 'active' : ''}`}
+        >
+          {ar} <span class="sidebar-count">{areaCount[ar]}</span>
+        </a>
+      ))}
+    </nav>
+
+    <main class="main-content">
+      <div class="article-wrap">
+
+        <nav class="article-breadcrumb">
+          <a href="/">Guide</a>
+          <span class="breadcrumb-sep">/</span>
+          <a href={`/?area=${encodeURIComponent(primaryArea)}`}>{primaryArea}</a>
+          <span class="breadcrumb-sep">/</span>
+          <span>{title}</span>
+        </nav>
+
+        <div>
+          {areas.map(ar => (
+            <a href={`/?area=${encodeURIComponent(ar)}`} class="article-area-badge">{ar}</a>
+          ))}
+        </div>
+
+        <h1 class="article-title">{title}</h1>
+        <code class="article-url-display">{currentURL}</code>
+
+        <div class="article-summary-block">
+          <p>{description}</p>
+        </div>
+
+        <div class="article-body">
+          <slot />
+        </div>
+
+        {tags.length > 0 && (
+          <div class="article-tags-section">
+            <span class="tags-label">Tag:</span>
+            {tags.map(t => <span class="card-tag">{t}</span>)}
+          </div>
+        )}
+
+        <nav class="article-nav">
+          {prevArticle ? (
+            <a href={`/wikiathlon/${prevArticle.slug}/`} class="article-nav-btn">
+              <span class="nav-label">← Precedente</span>
+              <span class="nav-title">{prevArticle.data.title}</span>
+            </a>
+          ) : <div></div>}
+          {nextArticle ? (
+            <a href={`/wikiathlon/${nextArticle.slug}/`} class="article-nav-btn right">
+              <span class="nav-label">Successivo →</span>
+              <span class="nav-title">{nextArticle.data.title}</span>
+            </a>
+          ) : <div></div>}
+        </nav>
+
+      </div>
+    </main>
+  </div>
+</Base>

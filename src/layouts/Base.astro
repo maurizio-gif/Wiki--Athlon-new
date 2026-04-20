@@ -1,0 +1,52 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abbonamenti, corsi, portale/app, prenotazioni e regole del club.' } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title} – Athlon Wiki</title>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="/" class="header-logo">
+      <img src="/logo.png" alt="Athlon Club" />
+      <span class="logo-text">ATHLON <span>WIKI</span></span>
+    </a>
+    <div class="header-divider"></div>
+    <div class="header-spacer"></div>
+    <a href="https://www.athlonroma.it/regolamento" target="_blank" rel="noopener" class="btn-tc">
+      Termini e Condizioni
+    </a>
+  </header>
+
+  <slot />
+
+  <footer class="site-footer">
+    <strong>Point 2000 Srl – Società Sportiva Dilettantistica</strong><br>
+    Via Ugo Ojetti 134, 00137 Roma &nbsp;|&nbsp;
+    P.IVA IT05154811003 &nbsp;|&nbsp;
+    <a href="mailto:desk@athlonroma.it">desk@athlonroma.it</a>
+    &nbsp;|&nbsp;
+    Affiliazione ASI: LAZ-RM4453 &nbsp;|&nbsp; Affiliazione FIN: 996434 &nbsp;|&nbsp; Affiliazione CSEN: 71519
+    <br><br>
+    <a href="https://www.athlonroma.it" target="_blank">← Torna al sito principale</a>
+    &nbsp;|&nbsp;
+    <a href="https://www.athlonroma.it/regolamento" target="_blank">Termini e Condizioni</a>
+    &nbsp;|&nbsp;
+    <a href="https://www.athlonroma.it/privacy/" target="_blank">Privacy Policy</a>
+  </footer>
+
+</body>
+</html>
