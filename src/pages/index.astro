@@ -189,34 +189,40 @@ function cardHTML(a: ArticleData, q: string): string {
 
 let articles: ArticleData[] = [];
 
-searchInput.addEventListener('input', () => {
-  const q = searchInput.value.trim().toLowerCase();
-  if (!articles.length) articles = extractArticles();
-
+function runSearch(q: string) {
+  searchInput.value = q;
   if (!q) {
     searchResults.style.display = 'none';
     articlesSections.style.display = 'block';
     return;
   }
-
+  if (!articles.length) articles = extractArticles();
+  const ql = q.toLowerCase();
   const results = articles.filter(a =>
-    a.title.toLowerCase().includes(q) ||
-    a.description.toLowerCase().includes(q) ||
-    a.tags.toLowerCase().includes(q) ||
-    a.area.toLowerCase().includes(q)
+    a.title.toLowerCase().includes(ql) ||
+    a.description.toLowerCase().includes(ql) ||
+    a.tags.toLowerCase().includes(ql) ||
+    a.area.toLowerCase().includes(ql)
   );
-
   articlesSections.style.display = 'none';
   searchResults.style.display = 'block';
-
   if (!results.length) {
     searchGrid.innerHTML = '<div class="empty-state"><div class="empty-icon">∅</div><div class="empty-msg">Nessun risultato per <strong>' + q + '</strong></div></div>';
     searchHeader.innerHTML = '';
   } else {
     searchHeader.innerHTML = `<span class="section-title">${results.length} risultat${results.length === 1 ? 'o' : 'i'}</span> <span class="section-count">per "${q}"</span>`;
-    searchGrid.innerHTML = results.map(a => cardHTML(a, q)).join('');
+    searchGrid.innerHTML = results.map(a => cardHTML(a, ql)).join('');
   }
-});
+}
+
+searchInput.addEventListener('input', () => runSearch(searchInput.value.trim()));
+
+// Leggi ?q= dall'URL (arrivo da pagina articolo)
+const urlQ = new URLSearchParams(window.location.search).get('q');
+if (urlQ) {
+  // Piccolo delay per assicurarsi che il DOM sia pronto
+  setTimeout(() => runSearch(urlQ), 50);
+}
 
 // Area pill click → smooth scroll + highlight
 document.querySelectorAll('.area-pill').forEach(pill => {

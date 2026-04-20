@@ -72,6 +72,20 @@ const currentURL = `https://wiki.athlonroma.it/wikiathlon/${slug}/`;
     </nav>
 
     <main class="main-content">
+
+      <!-- SEARCH BAR STICKY — sempre visibile -->
+      <div class="search-bar-sticky">
+        <div class="search-bar-inner">
+          <input
+            type="text"
+            id="article-search"
+            placeholder="Digita qui per cercare…"
+            autocomplete="off"
+          />
+          <button class="search-bar-btn" id="search-go-btn">Ricerca</button>
+        </div>
+      </div>
+
       <div class="article-wrap">
 
         <nav class="article-breadcrumb">
@@ -125,3 +139,22 @@ const currentURL = `https://wiki.athlonroma.it/wikiathlon/${slug}/`;
     </main>
   </div>
 </Base>
+
+<script>
+  const input = document.getElementById('article-search') as HTMLInputElement;
+  const btn = document.getElementById('search-go-btn') as HTMLButtonElement;
+
+  function doSearch() {
+    const q = input.value.trim();
+    if (q) {
+      window.location.href = `/?q=${encodeURIComponent(q)}`;
+    } else {
+      window.location.href = '/';
+    }
+  }
+
+  btn.addEventListener('click', doSearch);
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') doSearch();
+  });
+</script>
