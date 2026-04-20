@@ -7,9 +7,6 @@ interface Props {
 }
 
 const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abbonamenti, corsi, portale/app, prenotazioni e regole del club.' } = Astro.props;
-
-const TYPEFORM_ID = 'WikiAthlon';
-const TYPEFORM_DOMAIN = 'zgcrbhl8m6b.typeform.com';
 ---
 <!DOCTYPE html>
 <html lang="it">
@@ -27,7 +24,6 @@ const TYPEFORM_DOMAIN = 'zgcrbhl8m6b.typeform.com';
       }
     })();
   </script>
-  <script is:inline src="//embed.typeform.com/next/embed.js"></script>
 </head>
 <body>
 
@@ -41,33 +37,7 @@ const TYPEFORM_DOMAIN = 'zgcrbhl8m6b.typeform.com';
     <a href="https://www.athlonroma.it/regolamento" target="_blank" rel="noopener" class="btn-tc">
       Termini e Condizioni
     </a>
-    <button
-      class="btn-assistenza-header"
-      data-tf-popup={TYPEFORM_ID}
-      data-tf-domain={TYPEFORM_DOMAIN}
-      data-tf-opacity="100"
-      data-tf-iframe-props="title=Richiedi Assistenza"
-      data-tf-transitive-search-params
-      data-tf-medium="snippet"
-    >
-      💬 Assistenza
-    </button>
   </header>
-
-  <!-- FLOATING BUTTON laterale -->
-  <div class="tf-floating-wrap">
-    <button
-      class="tf-floating-btn"
-      data-tf-popup={TYPEFORM_ID}
-      data-tf-domain={TYPEFORM_DOMAIN}
-      data-tf-opacity="100"
-      data-tf-iframe-props="title=Richiedi Assistenza"
-      data-tf-transitive-search-params
-      data-tf-medium="snippet"
-    >
-      💬 RICHIEDI<br/>ASSISTENZA
-    </button>
-  </div>
 
   <slot />
 
@@ -80,17 +50,6 @@ const TYPEFORM_DOMAIN = 'zgcrbhl8m6b.typeform.com';
         <a href="mailto:desk@athlonroma.it">desk@athlonroma.it</a><br/>
         Affiliazione ASI: LAZ-RM4453 &nbsp;|&nbsp; FIN: 996434 &nbsp;|&nbsp; CSEN: 71519
       </div>
-      <button
-        class="btn-assistenza-footer"
-        data-tf-popup={TYPEFORM_ID}
-      data-tf-domain={TYPEFORM_DOMAIN}
-        data-tf-opacity="100"
-        data-tf-iframe-props="title=Richiedi Assistenza"
-        data-tf-transitive-search-params
-        data-tf-medium="snippet"
-      >
-        💬 Richiedi Assistenza
-      </button>
     </div>
     <div class="footer-links">
       <a href="https://www.athlonroma.it" target="_blank">← Torna al sito principale</a>
@@ -100,6 +59,10 @@ const TYPEFORM_DOMAIN = 'zgcrbhl8m6b.typeform.com';
       <a href="https://www.athlonroma.it/privacy/" target="_blank">Privacy Policy</a>
     </div>
   </footer>
+
+  <!-- Typeform widget -->
+  <div data-tf-live="01J2ZQSSR25MNQ3VPCN60SMDBX"></div>
+  <script is:inline src="//embed.typeform.com/next/embed.js"></script>
 
 </body>
 </html>
