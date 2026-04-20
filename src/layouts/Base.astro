@@ -8,7 +8,8 @@ interface Props {
 
 const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abbonamenti, corsi, portale/app, prenotazioni e regole del club.' } = Astro.props;
 
-const TYPEFORM_ID = '01J2ZQSSR25MNQ3VPCN60SMDBX';
+const TYPEFORM_ID = 'WikiAthlon';
+const TYPEFORM_DOMAIN = 'zgcrbhl8m6b.typeform.com';
 ---
 <!DOCTYPE html>
 <html lang="it">
@@ -43,6 +44,7 @@ const TYPEFORM_ID = '01J2ZQSSR25MNQ3VPCN60SMDBX';
     <button
       class="btn-assistenza-header"
       data-tf-popup={TYPEFORM_ID}
+      data-tf-domain={TYPEFORM_DOMAIN}
       data-tf-opacity="100"
       data-tf-iframe-props="title=Richiedi Assistenza"
       data-tf-transitive-search-params
@@ -57,13 +59,13 @@ const TYPEFORM_ID = '01J2ZQSSR25MNQ3VPCN60SMDBX';
     <button
       class="tf-floating-btn"
       data-tf-popup={TYPEFORM_ID}
+      data-tf-domain={TYPEFORM_DOMAIN}
       data-tf-opacity="100"
       data-tf-iframe-props="title=Richiedi Assistenza"
       data-tf-transitive-search-params
       data-tf-medium="snippet"
     >
-      <span class="tf-floating-icon">💬</span>
-      <span class="tf-floating-label">RICHIEDI<br/>ASSISTENZA</span>
+      💬 RICHIEDI<br/>ASSISTENZA
     </button>
   </div>
 
@@ -81,6 +83,7 @@ const TYPEFORM_ID = '01J2ZQSSR25MNQ3VPCN60SMDBX';
       <button
         class="btn-assistenza-footer"
         data-tf-popup={TYPEFORM_ID}
+      data-tf-domain={TYPEFORM_DOMAIN}
         data-tf-opacity="100"
         data-tf-iframe-props="title=Richiedi Assistenza"
         data-tf-transitive-search-params
