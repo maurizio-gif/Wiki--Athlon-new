@@ -200,3 +200,85 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
 /* Previeni overflow orizzontale globale */
 html, body { overflow-x: hidden; }
 .article-wrap { overflow-x: hidden; }
+
+/* ── TYPEFORM BUTTONS ── */
+
+/* 1. HEADER */
+.btn-assistenza-header {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: #fff;
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  font-family: var(--font-display); font-size: 14px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  padding: 7px 16px; cursor: pointer;
+  transition: all 0.15s; flex-shrink: 0; white-space: nowrap;
+}
+.btn-assistenza-header:hover {
+  background: var(--orange); color: #fff;
+}
+
+/* 2. FLOATING laterale */
+.tf-floating-wrap {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 200;
+}
+.tf-floating-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: var(--orange);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 16px 10px;
+  transition: background 0.15s;
+  writing-mode: initial;
+  /* Testo verticale */
+  width: 48px;
+  min-height: 140px;
+}
+.tf-floating-btn:hover { background: var(--orange-light); }
+.tf-floating-icon { font-size: 20px; line-height: 1; }
+.tf-floating-label {
+  font-family: var(--font-display); font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.12em;
+  line-height: 1.3; text-align: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+/* 3. FOOTER */
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.footer-info { flex: 1; min-width: 200px; }
+.footer-links { font-size: 13px; }
+.btn-assistenza-footer {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--orange); color: #fff;
+  border: none; cursor: pointer;
+  font-family: var(--font-display); font-size: 15px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  padding: 12px 24px;
+  transition: background 0.15s; flex-shrink: 0; white-space: nowrap;
+}
+.btn-assistenza-footer:hover { background: var(--orange-light); }
+
+/* Mobile: nascondi label floating, solo icona */
+@media (max-width: 768px) {
+  .btn-assistenza-header { font-size: 12px; padding: 6px 10px; }
+  .tf-floating-btn { width: 44px; min-height: 120px; padding: 12px 8px; }
+  .tf-floating-label { font-size: 10px; }
+  .footer-top { flex-direction: column; align-items: flex-start; }
+}
