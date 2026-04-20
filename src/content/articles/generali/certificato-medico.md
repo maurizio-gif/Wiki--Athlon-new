@@ -10,7 +10,7 @@ tags:
   - non agonistico
   - 6 anni
   - obbligatorio
-draft: true
+draft: false
 ---
 ## Certificato NON Agonistico
 
