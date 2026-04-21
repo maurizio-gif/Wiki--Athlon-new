@@ -157,4 +157,13 @@ const currentURL = `https://wiki.athlonroma.it/wikiathlon/${slug}/`;
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') doSearch();
   });
+
+  // Apri tutti i link esterni in nuova tab
+  document.querySelectorAll('.article-body a').forEach(link => {
+    const href = (link as HTMLAnchorElement).href;
+    if (href && !href.startsWith(window.location.origin) && !href.startsWith('/') && !href.startsWith('#')) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
 </script>
