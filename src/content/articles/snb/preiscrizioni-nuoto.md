@@ -7,11 +7,7 @@ tags: ["iscrizione", "2026", "2027", "stagionale", "mensile", "prezzi", "quota a
 ---
 
 <div class="ci-hero">
-  📅 Stagione 2026/27 · Dal 14 Settembre 2026 al 20 Giugno 2027 · Iscrizioni aperte
-</div>
-
-<div class="ci-hero" style="background:#1a1a1a; margin-top: -8px;">
-  🟢 Preiscrizioni attive dal <strong>1 Maggio</strong> al <strong>31 Luglio 2026</strong> — quota attivazione (€50) in omaggio + accesso allo stagionale
+  📅 Preiscrizioni attive dal <strong>1 Maggio</strong> al <strong>31 Luglio 2026</strong> · Stagione dal 14 Settembre 2026 al 20 Giugno 2027
 </div>
 
 > ⚠️ Dal 1° Agosto 2026 solo abbonamento mensile, senza benefit preiscrizione.
