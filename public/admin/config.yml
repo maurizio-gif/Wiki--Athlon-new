@@ -90,3 +90,30 @@ collections:
         name: "body"
         widget: "markdown"
         buttons: [bold, italic, link, heading-two, heading-three, quote, bulleted-list, numbered-list]
+
+  # ── NEWS ──
+  - name: "news"
+    label: "News"
+    label_singular: "Articolo News"
+    folder: "src/content/articles/news"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["title", "order"]
+    fields:
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Descrizione / Sommario", name: "description", widget: "string" }
+      - label: "Area / Categoria"
+        name: "area"
+        widget: "select"
+        multiple: true
+        min: 1
+        options: ["Generali", "Adulti – Club", "Scuola Nuoto Bambini", "News"]
+        default: ["News"]
+      - { label: "Ordine nella sezione", name: "order", widget: "number", default: 99 }
+      - { label: "Tag", name: "tags", widget: "list", allow_add: true }
+      - { label: "Bozza (non pubblicare)", name: "draft", widget: "boolean", default: false }
+      - label: "Contenuto"
+        name: "body"
+        widget: "markdown"
+        buttons: [bold, italic, link, heading-two, heading-three, quote, bulleted-list, numbered-list]
