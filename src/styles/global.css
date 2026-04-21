@@ -392,3 +392,58 @@ html, body { overflow-x: hidden; }
   font-style: italic;
   font-weight: 400;
 }
+
+/* ── EVENTS BAR ── */
+.events-bar {
+  position: fixed;
+  top: var(--header-h);
+  left: 0; right: 0;
+  z-index: 90;
+  background: #0a0a0a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 9px 24px;
+  text-decoration: none;
+  transition: background 0.15s;
+  border-bottom: 2px solid var(--orange);
+}
+.events-bar:hover { background: #1a1a1a; }
+.events-bar-label {
+  font-family: var(--font-display);
+  font-size: 13px; font-weight: 900;
+  text-transform: uppercase; letter-spacing: 0.14em;
+  color: var(--orange);
+  flex-shrink: 0;
+}
+.events-bar-text {
+  font-family: var(--font-body);
+  font-size: 14px; color: #ccc;
+}
+.events-bar-cta {
+  font-family: var(--font-display);
+  font-size: 13px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: #fff;
+  background: var(--orange);
+  padding: 4px 14px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.events-bar:hover .events-bar-cta { background: var(--orange-light); }
+
+/* Adatta il layout alla barra eventi */
+:root { --events-bar-h: 40px; }
+.page-wrap {
+  margin-top: calc(var(--header-h) + var(--events-bar-h)) !important;
+}
+
+@media (max-width: 768px) {
+  .events-bar { gap: 10px; padding: 8px 14px; }
+  .events-bar-text { display: none; }
+  .events-bar-label { font-size: 12px; }
+  .events-bar-cta { font-size: 12px; padding: 4px 10px; }
+  :root { --events-bar-h: 36px; }
+}
