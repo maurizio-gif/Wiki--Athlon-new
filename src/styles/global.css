@@ -200,3 +200,58 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
 /* Previeni overflow orizzontale globale */
 html, body { overflow-x: hidden; }
 .article-wrap { overflow-x: hidden; }
+
+/* ── PULSANTE ASSISTENZA ── */
+.btn-assistenza {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--orange); color: #fff;
+  font-family: var(--font-display); font-size: 16px; font-weight: 800;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  padding: 10px 22px; text-decoration: none;
+  transition: background 0.15s; flex-shrink: 0; white-space: nowrap;
+  border: none; cursor: pointer;
+}
+.btn-assistenza:hover { background: var(--orange-light); color: #fff; }
+
+/* Footer layout */
+.footer-top {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 24px; margin-bottom: 16px; flex-wrap: wrap;
+}
+.footer-info { flex: 1; min-width: 200px; }
+.footer-links { font-size: 13px; }
+.btn-assistenza-footer {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--orange); color: #fff;
+  font-family: var(--font-display); font-size: 15px; font-weight: 800;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  padding: 12px 24px; text-decoration: none;
+  transition: background 0.15s; flex-shrink: 0; white-space: nowrap;
+}
+.btn-assistenza-footer:hover { background: var(--orange-light); }
+
+/* News section highlight */
+.section-header-news {
+  border-bottom-color: #e8b000 !important;
+  background: #fffbee;
+  padding: 8px 12px;
+  margin: 0 -12px 20px;
+}
+.section-header-news .section-title { color: #c07800; }
+.section-header-news .section-count { color: #e8b000; }
+.area-pill-news {
+  background: #fffbee !important;
+  border-color: #e8b000 !important;
+  color: #c07800 !important;
+}
+.area-pill-news:hover, .area-pill-news.active {
+  background: #e8b000 !important;
+  border-color: #e8b000 !important;
+  color: #fff !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .btn-assistenza { font-size: 13px; padding: 8px 14px; }
+  .footer-top { flex-direction: column; align-items: flex-start; }
+}

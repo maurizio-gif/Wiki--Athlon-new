@@ -4,7 +4,6 @@ import { getCollection } from 'astro:content';
 
 const allArticles = await getCollection('articles', ({ data }) => !data.draft);
 
-// Ordina per area poi order/title
 const sorted = allArticles.sort((a, b) => {
   const aArea = Array.isArray(a.data.area) ? a.data.area[0] : a.data.area;
   const bArea = Array.isArray(b.data.area) ? b.data.area[0] : b.data.area;
@@ -13,14 +12,18 @@ const sorted = allArticles.sort((a, b) => {
   return a.data.title.localeCompare(b.data.title);
 });
 
-// Aree uniche ordinate
+// News sempre prima, poi le altre aree alfabetiche
 const allAreas: string[] = [];
 sorted.forEach(a => {
   const arr = Array.isArray(a.data.area) ? a.data.area : [a.data.area];
   arr.forEach(ar => { if (!allAreas.includes(ar)) allAreas.push(ar); });
 });
+allAreas.sort((a, b) => {
+  if (a === 'News') return -1;
+  if (b === 'News') return 1;
+  return a.localeCompare(b);
+});
 
-// Conteggio per area
 const areaCount: Record<string, number> = {};
 allAreas.forEach(ar => {
   areaCount[ar] = sorted.filter(a => {
@@ -29,19 +32,19 @@ allAreas.forEach(ar => {
   }).length;
 });
 
-// Raggruppa per area primaria (prima area dell'articolo)
+// Raggruppa per area includendo tutti gli articoli che hanno quell'area (non solo primaria)
 const grouped: Record<string, typeof sorted> = {};
-sorted.forEach(a => {
-  const primaryArea = Array.isArray(a.data.area) ? a.data.area[0] : a.data.area;
-  if (!grouped[primaryArea]) grouped[primaryArea] = [];
-  grouped[primaryArea].push(a);
+allAreas.forEach(ar => {
+  grouped[ar] = sorted.filter(a => {
+    const arr = Array.isArray(a.data.area) ? a.data.area : [a.data.area];
+    return arr.includes(ar);
+  });
 });
 ---
 
 <Base title="Help Desk" description="Procedure e FAQ Athlon su abbonamenti, corsi, portale/app, prenotazioni e regole del club.">
   <div class="page-wrap">
 
-    <!-- SIDEBAR -->
     <nav class="sidebar">
       <div class="sidebar-label">Categorie</div>
       <a href="/" class="sidebar-link active">
@@ -55,27 +58,18 @@ sorted.forEach(a => {
       ))}
     </nav>
 
-    <!-- MAIN -->
     <main class="main-content">
 
-      <!-- HERO -->
       <div class="home-hero">
         <div class="hero-eyebrow">Help Center</div>
         <h1 class="hero-title">GUIDE &amp; <span>SUPPORTO</span></h1>
         <p class="hero-sub">Procedure e FAQ su abbonamenti, corsi, portale/app, prenotazioni e regole del club.</p>
         <div class="hero-stats">
-          <div>
-            <div class="stat-num">{sorted.length}</div>
-            <div class="stat-lbl">Articoli</div>
-          </div>
-          <div>
-            <div class="stat-num">{allAreas.length}</div>
-            <div class="stat-lbl">Aree</div>
-          </div>
+          <div><div class="stat-num">{sorted.length}</div><div class="stat-lbl">Articoli</div></div>
+          <div><div class="stat-num">{allAreas.length}</div><div class="stat-lbl">Aree</div></div>
         </div>
       </div>
 
-      <!-- SEARCH (client-side) -->
       <div class="search-bar-sticky">
         <div class="search-bar-inner">
           <input type="text" id="wiki-search" placeholder="Digita qui per cercare…" autocomplete="off" />
@@ -83,7 +77,6 @@ sorted.forEach(a => {
         </div>
       </div>
 
-      <!-- AREA PILL MENU -->
       <div class="area-menu">
         <a href="#top" class="area-pill active" data-area="all">
           Tutti <span class="area-pill-count">({sorted.length})</span>
@@ -91,7 +84,7 @@ sorted.forEach(a => {
         {allAreas.map(ar => (
           <a
             href={`#area-${ar.toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9-]/g,'')}`}
-            class="area-pill"
+            class={`area-pill${ar === 'News' ? ' area-pill-news' : ''}`}
             data-area={ar}
           >
             {ar} <span class="area-pill-count">({areaCount[ar]})</span>
@@ -99,26 +92,24 @@ sorted.forEach(a => {
         ))}
       </div>
 
-      <!-- SEARCH RESULTS (hidden by default) -->
-      <div id="search-results" style="display:none; padding: 24px 48px;">
+      <div id="search-results" style="display:none; padding: 24px 56px;">
         <div id="search-header" class="section-header" style="margin-bottom:16px"></div>
         <div id="search-grid" class="articles-grid"></div>
       </div>
 
-      <!-- ARTICLE SECTIONS per area -->
       <div id="articles-sections">
-        {Object.entries(grouped).map(([area, articles]) => (
+        {allAreas.map(area => (
           <section
             class="section-wrap"
             id={`area-${area.toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9-]/g,'')}`}
             data-area={area}
           >
-            <div class="section-header">
-              <span class="section-title">{area}</span>
-              <span class="section-count">{articles.length}</span>
+            <div class={`section-header${area === 'News' ? ' section-header-news' : ''}`}>
+              <span class="section-title">{area === 'News' ? '🔔 ' + area : area}</span>
+              <span class="section-count">{grouped[area].length}</span>
             </div>
             <div class="articles-grid">
-              {articles.map(article => {
+              {grouped[area].map(article => {
                 const areas = Array.isArray(article.data.area) ? article.data.area : [article.data.area];
                 return (
                   <a href={`/wikiathlon/${article.slug}/`} class="article-card">
@@ -145,33 +136,33 @@ sorted.forEach(a => {
   </div>
 </Base>
 
-<!-- Search client-side script -->
 <script>
-// Raccoglie i dati degli articoli dal DOM per la ricerca
 const searchInput = document.getElementById('wiki-search') as HTMLInputElement;
 const searchResults = document.getElementById('search-results')!;
 const searchHeader = document.getElementById('search-header')!;
 const searchGrid = document.getElementById('search-grid')!;
 const articlesSections = document.getElementById('articles-sections')!;
 
-interface ArticleData {
-  title: string;
-  description: string;
-  area: string;
-  href: string;
-  tags: string;
-}
+interface ArticleData { title: string; description: string; area: string; href: string; tags: string; }
 
-// Estrae i dati dalle card già renderizzate
 function extractArticles(): ArticleData[] {
+  const seen = new Set<string>();
   const cards = document.querySelectorAll('.article-card');
-  return Array.from(cards).map(card => ({
-    title: card.querySelector('.card-title')?.textContent || '',
-    description: card.querySelector('.card-summary')?.textContent || '',
-    area: card.querySelector('.card-area-tag')?.textContent || '',
-    href: (card as HTMLAnchorElement).href,
-    tags: Array.from(card.querySelectorAll('.card-tag')).map(t => t.textContent).join(' ')
-  }));
+  const result: ArticleData[] = [];
+  cards.forEach(card => {
+    const href = (card as HTMLAnchorElement).href;
+    if (!seen.has(href)) {
+      seen.add(href);
+      result.push({
+        title: card.querySelector('.card-title')?.textContent || '',
+        description: card.querySelector('.card-summary')?.textContent || '',
+        area: card.querySelector('.card-area-tag')?.textContent || '',
+        href,
+        tags: Array.from(card.querySelectorAll('.card-tag')).map(t => t.textContent).join(' ')
+      });
+    }
+  });
+  return result;
 }
 
 function cardHTML(a: ArticleData, q: string): string {
@@ -217,14 +208,9 @@ function runSearch(q: string) {
 
 searchInput.addEventListener('input', () => runSearch(searchInput.value.trim()));
 
-// Leggi ?q= dall'URL (arrivo da pagina articolo)
 const urlQ = new URLSearchParams(window.location.search).get('q');
-if (urlQ) {
-  // Piccolo delay per assicurarsi che il DOM sia pronto
-  setTimeout(() => runSearch(urlQ), 50);
-}
+if (urlQ) setTimeout(() => runSearch(urlQ), 50);
 
-// Area pill click → smooth scroll + highlight
 document.querySelectorAll('.area-pill').forEach(pill => {
   pill.addEventListener('click', () => {
     document.querySelectorAll('.area-pill').forEach(p => p.classList.remove('active'));
