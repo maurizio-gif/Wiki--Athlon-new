@@ -2,32 +2,40 @@
 title: "Disdetta Abbonamento Mensile"
 description: "Come e quando disdire l'abbonamento mensile della scuola nuoto bambini."
 area: "Scuola Nuoto Bambini"
-order: 7
+order: 6
 tags: ["disdetta", "mensile", "bambini", "email", "10 giorni", "rinnovo"]
 ---
 
-L'abbonamento mensile si rinnova automaticamente ogni **giorno 1 del mese**.
+<div class="ci-hero">
+  ❌ Scrivi a disdetta@athlonroma.it · Almeno 10 giorni prima del rinnovo
+</div>
 
-Per disdire, invia un'email a **[disdetta@athlonroma.it](mailto:disdetta@athlonroma.it)** entro **10 giorni prima** del successivo ciclo di pagamento.
+L'abbonamento si rinnova ogni **giorno 1 del mese**. Per disdire invia un'email a [disdetta@athlonroma.it](mailto:disdetta@athlonroma.it) dall'indirizzo email registrato sul sistema.
 
-> 10 giorni equivalgono a **240 ore prima della mezzanotte del giorno 1** del mese.
+> 10 giorni = **240 ore prima della mezzanotte del giorno 1** del mese
 
-> ⚠️ La richiesta deve pervenire dall'**indirizzo email registrato** sul sistema.
+## Scadenze
 
-## Scadenze per la disdetta
+| Durata del mese | Disdetta entro |
+|:---|:---:|
+| 31 giorni | mezzanotte del **21** |
+| 30 giorni | mezzanotte del **20** |
+| 28 giorni | mezzanotte del **18** |
 
-| Durata del mese | Entro il giorno |
-|---|---|
-| 31 giorni | Mezzanotte del **21** |
-| 30 giorni | Mezzanotte del **20** |
-| 28 giorni | Mezzanotte del **18** |
+---
 
-## Cosa succede se disdico in ritardo?
+<details>
+<summary><strong>Cosa succede se disdico in ritardo?</strong></summary>
 
-Se la richiesta arriva **oltre il termine**, la disdetta avrà effetto sul **mese successivo** e il primo addebito previsto verrà comunque processato.
+La disdetta avrà effetto sul **mese successivo** e il primo addebito previsto verrà comunque processato.
 
-## Dopo la disdetta
+</details>
 
-In caso di disdetta e successiva nuova iscrizione, si sarà tenuti al pagamento di una nuova **quota di attivazione** e si sarà soggetti alle condizioni contrattuali in vigore al momento della nuova adesione.
+<details>
+<summary><strong>Posso iscrivermi di nuovo dopo la disdetta?</strong></summary>
+
+Sì, ma sarà necessario pagare una nuova **quota di attivazione** e si applicheranno le condizioni contrattuali vigenti al momento della nuova adesione.
+
+</details>
 
 [Consulta i Termini e Condizioni](https://www.athlonroma.it/regolamento)

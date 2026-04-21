@@ -3,37 +3,53 @@ title: "Spogliatoi"
 description: "Posizione, dotazioni e regole degli spogliatoi femminili, maschili e baby."
 area: ["Adulti – Club", "Scuola Nuoto Bambini"]
 order: 6
-tags: ["spogliatoio", "armadietto", "lucchetto", "docce", "phon", "femminile", "maschile", "baby"]
+tags: ["spogliatoio", "armadietto", "lucchetto", "docce", "phon"]
 ---
 
-Per tutti gli armadietti è richiesto un **lucchetto diametro 30** (non fornito dal club). Tutti i servizi sono **gratuiti**.
+<div class="ci-hero">
+  🚿 Tutti i servizi sono gratuiti · Lucchetto diametro 30 obbligatorio · Uso giornaliero
+</div>
 
 ## Spogliatoi Femminili
 
-**FITNESS** — scendendo le scale di ingresso a destra, accanto alla Sala A
+<details>
+<summary><strong>Fitness</strong></summary>
 
-- 12 Docce
-- 6 postazioni Phon (sia phon che prese)
-- 94 armadietti
+Scendendo le scale di ingresso a destra, accanto alla Sala A.
 
-**NUOTO** — secondo piano interrato, scendendo le scale accanto all'accoglienza e poi a destra
+- **12** Docce
+- **6** postazioni Phon (phon e prese)
+- **94** Armadietti
 
-- 11 Docce
-- 10 postazioni Phon (sia phon che prese)
-- 64 armadietti
+</details>
+
+<details>
+<summary><strong>Nuoto</strong></summary>
+
+Secondo piano interrato, scendendo le scale accanto all'accoglienza e poi a destra.
+
+- **11** Docce
+- **10** postazioni Phon (phon e prese)
+- **64** Armadietti
+
+</details>
+
+---
 
 ## Spogliatoio Maschile
 
 Secondo piano interrato, scendendo le scale accanto all'accoglienza e poi a **sinistra**.
 
-- 11 Docce
-- 10 postazioni Phon (sia phon che prese)
-- 64 armadietti
+- **11** Docce · **10** postazioni Phon · **64** Armadietti
+
+---
 
 ## Spogliatoio Baby (fino 8 anni)
 
 Riservato ai bambini fino agli 8 anni **con accompagnatore**. Secondo piano interrato, in fondo a destra.
 
-- 20 Docce
-- 16 postazioni Phon (sia phon che prese)
-- 48 armadietti
+- **20** Docce · **16** postazioni Phon · **48** Armadietti
+
+---
+
+> 🔒 Per tutti gli armadietti è richiesto un **lucchetto diametro 30** (non fornito dal club). Uso **giornaliero** — svuota l'armadietto a fine visita.

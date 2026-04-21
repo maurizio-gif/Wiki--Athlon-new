@@ -2,41 +2,41 @@
 title: "Accesso ai Corsi di Scuola Nuoto"
 description: "Regole di ingresso, accompagnatori e spogliatoi per i corsi di nuoto bambini."
 area: "Scuola Nuoto Bambini"
-order: 6
-tags: ["accesso", "accompagnatore", "spogliatoio", "ingresso", "bambini", "nuoto"]
+order: 5
+tags: ["accesso", "accompagnatore", "spogliatoio", "ingresso", "bambini"]
 ---
 
-> ⚠️ Durante le prime due settimane di corso sarà permesso l'accesso al club a **un solo accompagnatore**.
+<div class="ci-hero">
+  🚪 1 solo accompagnatore per bambino · Ingresso spogliatoi 15 minuti prima
+</div>
 
-## Regole generali di ingresso
-
-- I bambini devono essere accompagnati da **un solo accompagnatore** — è tassativamente vietato l'accesso di più di un accompagnatore all'interno del Centro Sportivo
-- All'ingresso verrà verificato il **badge di accesso** e, se necessario, fornito uno nuovo ai nuovi iscritti
-- L'ingresso agli spogliatoi è consentito **15 minuti prima** dell'inizio della lezione
+> ⚠️ È tassativamente vietato l'accesso di **più di un accompagnatore** per bambino.
 
 ## Bambini con accompagnatore (fino a 8–9 anni)
 
-**All'arrivo**
-- È consentito l'accesso allo spogliatoio a un solo accompagnatore per i bambini che necessitano di assistenza
-- Una volta entrati, gli accompagnatori cambiano i bambini
+<details>
+<summary><strong>All'arrivo e durante la lezione</strong></summary>
 
-**Durante la lezione**
-- Gli accompagnatori devono attendere che lo Staff faccia l'appello e chiami il bambino
-- Dopo aver lasciato i bambini allo Staff, riporre gli indumenti in una borsa e lasciarla nell'armadietto (serve **lucchetto diametro 30**)
+1. Un solo accompagnatore accede allo spogliatoio e cambia il bambino
+2. Aspettare che lo **Staff faccia l'appello** prima di lasciare il bambino
+3. Riporre gli indumenti in armadietto (**lucchetto diametro 30**)
+4. Attendere nella zona attesa, in balconata o fuori dal club
 
-**Dove attendere**
-- Nella zona di attesa adiacente agli spogliatoi, in balconata, o fuori dal club
+</details>
 
-**Ritiro (5 minuti prima del termine)**
-- Rientrare nello spogliatoio — si prega di non aspettare l'ultimo secondo per non creare file al tornello
-- Ritirare la borsa e occupare lo spazio all'interno dello spogliatoio
-- Indossare i sovrascarpe o ciabatte e attendere i bambini
+<details>
+<summary><strong>Al ritiro (5 minuti prima del termine)</strong></summary>
+
+- Rientrare nello spogliatoio — non aspettare l'ultimo secondo per evitare code al tornello
+- Ritirare la borsa e attendere il bambino
+- Indossare sovrascarpe o ciabatte nell'area spogliatoi
+
+</details>
 
 ## Bambini autonomi (dagli 8–9 anni)
 
 - L'accompagnatore **non accede** allo spogliatoio
-- Accompagna il bambino al tornello e accertati che l'accesso avvenga correttamente
-- I bambini ripongono gli indumenti negli armadietti durante la lezione
-- L'accompagnatore attende nella zona antistante gli spogliatoi, in balconata o fuori dal club
+- Accompagna il bambino al tornello e verifica che l'accesso avvenga correttamente
+- Attendi nella zona antistante, in balconata o fuori dal club
 
-> **Si prega di non sostare nelle zone di passaggio (scale).**
+> **Non sostare nelle zone di passaggio (scale).**

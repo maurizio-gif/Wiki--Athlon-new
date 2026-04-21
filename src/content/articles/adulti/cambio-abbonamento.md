@@ -6,33 +6,47 @@ order: 2
 tags: ["cambio abbonamento", "upgrade", "credito", "adulti"]
 ---
 
-Il cambio abbonamento avviene chiudendo l'abbonamento attuale, calcolando l'eventuale **credito residuo** non usufruito e applicandolo al nuovo abbonamento.
+<div class="ci-hero">
+  🔁 Cambio possibile solo verso abbonamenti di valore superiore · Il credito residuo viene scalato automaticamente
+</div>
 
-> ⚠️ Il cambio è possibile **solo verso abbonamenti di valore superiore**.
+Il cambio abbonamento avviene chiudendo il contratto attuale, calcolando il **credito residuo** e applicandolo al nuovo abbonamento.
 
-## Procedura passo-passo
+## Come funziona
 
-**1 – Compila il modulo di richiesta upgrade**
+<details>
+<summary><strong>Passo 1 — Compila il modulo di richiesta</strong></summary>
 
-Indica:
+Indica nel modulo in fondo alla pagina:
 - La **data di decorrenza** del nuovo abbonamento
-- Il tipo di **abbonamento** che desideri sottoscrivere
+- Il tipo di **abbonamento** desiderato
 
-**2 – Ricevi il conteggio di estinzione via email**
+</details>
+
+<details>
+<summary><strong>Passo 2 — Ricevi il conteggio via email</strong></summary>
 
 Ti invieremo:
-- Il **calcolo del credito residuo** del tuo abbonamento attuale
+- Il **calcolo del credito residuo** dell'abbonamento attuale
 - Le istruzioni per proseguire
 
-**3 – Conferma via email**
+</details>
+
+<details>
+<summary><strong>Passo 3 — Conferma via email</strong></summary>
 
 Rispondi alla nostra email con una conferma scritta. Provvederemo a:
 - Chiudere il vecchio abbonamento
 - Generare il credito residuo a tuo favore
 
-**4 – Sottoscrivi il nuovo abbonamento in autonomia**
+</details>
+
+<details>
+<summary><strong>Passo 4 — Sottoscrivi il nuovo abbonamento</strong></summary>
 
 Accedi alla tua area riservata e sottoscrivi il nuovo abbonamento. L'importo verrà automaticamente **ridotto del credito generato**.
+
+</details>
 
 ---
 

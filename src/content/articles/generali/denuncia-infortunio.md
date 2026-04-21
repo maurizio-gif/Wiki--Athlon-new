@@ -6,24 +6,42 @@ order: 3
 tags: ["infortunio", "sinistro", "assicurazione", "denuncia", "ASI"]
 ---
 
-L'apertura del sinistro è **a carico del tesserato**.
+<div class="ci-hero">
+  🏥 L'apertura del sinistro è a carico del tesserato · Segui la procedura in 4 passi
+</div>
 
-Puoi consultare gli estremi della convenzione assicurativa su [assieurconsulting.it/convenzioni/asi.html](https://www.assieurconsulting.it/convenzioni/asi.html)
+Puoi consultare gli estremi della convenzione assicurativa su [assieurconsulting.it](https://www.assieurconsulting.it/convenzioni/asi.html)
 
 ## Procedura
 
-**Passo 1 – Scarica il modulo**
+<details>
+<summary><strong>Passo 1 — Scarica il modulo</strong></summary>
 
-Scarica il modulo su [assieurconsulting.it](https://www.assieurconsulting.it/images/convenzioni/modulo%20Denuncia%20ASI%202025.pdf)
+Scarica il modulo ufficiale:
 
-**Passo 2 – Compila e invia la scansione**
+[📥 Scarica modulo denuncia ASI 2025](https://www.assieurconsulting.it/images/convenzioni/modulo%20Denuncia%20ASI%202025.pdf)
 
-Compilalo in tutte le parti riservate al tesserato e inviaci una scansione via email a **desk@athlonroma.it**
+</details>
 
-**Passo 3 – Ricezione modulo firmato e numero tessera**
+<details>
+<summary><strong>Passo 2 — Compila e invia la scansione</strong></summary>
 
-Ti risponderemo inviandoti il modulo firmato anche da noi e il numero di tessera da riportare nel modulo denuncia.
+Compila tutte le parti riservate al tesserato e invia una scansione via email a **desk@athlonroma.it**
 
-**Passo 4 – Compila il Form di denuncia online**
+</details>
 
-Compila il Form di denuncia su [assieurconsulting.it/sinistri](https://www.assieurconsulting.it/sinistri/modulo-denuncia-sinistri.html) allegando il modulo compilato.
+<details>
+<summary><strong>Passo 3 — Ricevi il modulo firmato</strong></summary>
+
+Ti risponderemo inviandoti il modulo firmato anche da noi e il **numero di tessera** da riportare nel modulo denuncia.
+
+</details>
+
+<details>
+<summary><strong>Passo 4 — Compila il Form di denuncia online</strong></summary>
+
+Compila il Form online allegando il modulo firmato:
+
+[📝 Compila il Form di denuncia](https://www.assieurconsulting.it/sinistri/modulo-denuncia-sinistri.html)
+
+</details>

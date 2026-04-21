@@ -6,21 +6,27 @@ order: 1
 tags: ["attrezzatura", "cuffia", "costume", "certificato", "badge", "primo giorno"]
 ---
 
-## Attrezzatura necessaria
+<div class="ci-hero">
+  🏊 Tutto quello che serve per il primo giorno di nuoto
+</div>
 
-Per la pratica del nuoto è obbligatorio avere:
+## Attrezzatura obbligatoria
 
 - **Cuffia**
 - **Costume**
 - **Ciabatte**
 - **Accappatoio**
 
-## Certificato Medico
+---
 
-> 📋 Il Certificato Medico di Idoneità all'Attività Sportiva **non Agonistica** è obbligatorio dai **6 anni di età** in su. Invialo in allegato via email a [desk@athlonroma.it](mailto:desk@athlonroma.it) — **non accettiamo più il cartaceo**.
+## Documenti
 
-[→ Leggi la guida completa sul Certificato Medico](/wikiathlon/generali/certificato-medico/)
+> 📋 Il **Certificato Medico** di Idoneità Non Agonistica è obbligatorio dai **6 anni** in su. Invialo a [desk@athlonroma.it](mailto:desk@athlonroma.it) — non accettiamo il cartaceo.
+
+[→ Leggi tutto sul Certificato Medico](/wikiathlon/generali/certificato-medico/)
+
+---
 
 ## Primo giorno
 
-> ✅ **Sei un nuovo iscritto?** Al tuo arrivo alla prima lezione troverai il nostro personale all'ingresso che ti assegnerà il **badge** di accesso.
+> ✅ **Nuovo iscritto?** All'arrivo alla prima lezione il personale ti assegnerà il **badge** di accesso all'ingresso.

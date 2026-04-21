@@ -6,58 +6,68 @@ order: 2
 tags: ["iscrizione", "2025", "2026", "stagionale", "mensile", "prezzi", "quota attivazione"]
 ---
 
-**Periodo preiscrizioni online:** 1 Maggio – 31 Luglio 2025
+<div class="ci-hero">
+  📅 Stagione 2025/26 · Dal 1 Settembre 2025 al 31 Maggio 2026 · Iscrizioni aperte
+</div>
 
-Chi si preiscrive entro il 31 luglio ottiene:
+> ✅ **Preiscrizione entro il 31 Luglio 2025** — quota di attivazione (€50) **in omaggio** + accesso all'abbonamento stagionale.
 
-- ✅ **Quota di attivazione (€50) completamente in omaggio**
-- ✅ Possibilità di acquistare l'**Abbonamento Stagionale** (miglior rapporto qualità-prezzo)
-
-> ⚠️ Dal 1° Agosto 2025 sarà possibile iscriversi solo con Abbonamento Mensile, senza i benefit della preiscrizione.
-
-## Date del corso
-
-- **Inizio:** 1 Settembre 2025
-- **Termine:** 31 Maggio 2026
+> ⚠️ Dal 1° Agosto 2025 solo abbonamento mensile, senza benefit preiscrizione.
 
 ## Prezzi
 
-| Tipo | Mensile | Stagionale (9 mesi) |
-|---|---|---|
-| Monosettimanale | €89/mese | €680 (sconto 15%) |
-| Bisettimanale | €109/mese | €830 (sconto 15%) |
-| Agonistico / Pallanuoto | €119/mese | €910 (sconto 15%) |
+| Frequenza | Mensile | Stagionale (9 mesi) |
+|:---|:---:|:---:|
+| Monosettimanale | €89/mese | **€680** (-15%) |
+| Bisettimanale | €109/mese | **€830** (-15%) |
+| Agonistico / Pallanuoto | €119/mese | **€910** (-15%) |
 
 Il pagamento stagionale avviene in **soluzione unica anticipata**.
 
-## Come sono suddivisi i corsi
-
-- I corsi vanno dal 01/09/2025 al 31/05/2026
-- Gli orari sono suddivisi per **età**; successivamente anche per **livello**
-- Nello stesso orario sono presenti più corsi e più insegnanti
-- L'istruttore viene assegnato dopo l'inizio dei corsi
+---
 
 ## Turni disponibili
 
-Clicca sulla fascia d'età per visualizzare gli orari:
+<details>
+<summary><strong>Visualizza i turni per fascia d'età</strong></summary>
 
-- **Nati 2022:** [Vedi turni](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=5&vacancies=1)
-- **Nati 2020-21:** [Vedi turni](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=1&vacancies=1)
-- **Nati 2018-19:** [Vedi turni](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=12&vacancies=1)
-- **Nati 2015-16-17:** [Vedi turni](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=13&vacancies=1)
-- **Nati 2012-13-14:** [Vedi turni](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=14&vacancies=1)
-- **Pallanuoto Under 16:** [Vedi turni](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=25&vacancies=1)
-- **Nuoto Agonistico (2007-2014):** [Vedi turni](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=22&vacancies=1)
+- [Nati 2022](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=5&vacancies=1)
+- [Nati 2020-21](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=1&vacancies=1)
+- [Nati 2018-19](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=12&vacancies=1)
+- [Nati 2015-16-17](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=13&vacancies=1)
+- [Nati 2012-13-14](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=14&vacancies=1)
+- [Pallanuoto Under 16](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=25&vacancies=1)
+- [Nuoto Agonistico (2007-2014)](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=22&vacancies=1)
 
-## Procedura di iscrizione
+</details>
 
-1. **Seleziona turno** — scegli la fascia d'età e il turno preferito
-2. **Clicca "Iscriviti"** — visualizzerai gli abbonamenti disponibili
-3. **Riepilogo e contratto** — accetta le condizioni firmando il contratto
-4. **Inserisci metodo di pagamento** — carta di credito/debito o conto corrente
+---
 
-> ⚠️ In assenza di un metodo di pagamento assegnato, l'iscrizione verrà automaticamente cancellata entro **24 ore**.
+## Come iscriversi
 
-## Percorso didattico
+<details>
+<summary><strong>Procedura di iscrizione passo-passo</strong></summary>
 
-I progressi sono visibili tramite l'app: progressione dei brevetti, prove previste e stato di avanzamento. A fine stagione verrà rilasciato il **diploma ufficiale** dopo la sessione di brevetto dell'ultimo mese.
+1. Seleziona fascia d'età e turno preferito
+2. Clicca **"Iscriviti"** e scegli l'abbonamento
+3. Accetta le condizioni e firma il contratto
+4. Inserisci il **metodo di pagamento** (carta o IBAN)
+
+> ⚠️ Senza metodo di pagamento assegnato, l'iscrizione viene cancellata entro **24 ore**.
+
+</details>
+
+<details>
+<summary><strong>Note su orari e istruttori</strong></summary>
+
+- Gli orari visualizzati sono suddivisi per **età**; successivamente anche per **livello**
+- L'istruttore viene assegnato dopo l'inizio dei corsi
+- I progressi sono visibili in app nella sezione **Brevetti**
+- A fine stagione: **diploma ufficiale** dopo la sessione di brevetto
+
+</details>
+
+<div class="ci-cta">
+  <a href="https://athlon.perfectgym.com/ClientPortal2/#/Login" class="ci-btn-primary">ISCRIVITI ORA</a>
+  <a href="https://athlon.perfectgym.com/ClientPortal2/#/ForgotPassword" class="ci-btn-secondary">RESET PASSWORD</a>
+</div>

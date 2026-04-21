@@ -6,24 +6,28 @@ order: 2
 tags: ["certificato medico", "idoneità", "agonistico", "non agonistico", "6 anni", "obbligatorio"]
 ---
 
-## Certificato NON Agonistico
+<div class="ci-hero">
+  📋 Obbligatorio dai 6 anni · Invia a desk@athlonroma.it · Solo formato digitale
+</div>
 
-> Entro 15 giorni dall'inizio dell'attività è obbligatorio inviare copia del **Certificato di Idoneità all'Attività Sportiva NON AGONISTICA** a **desk@athlonroma.it**. Obbligatorio dai **6 anni di età** in poi. Non accettiamo più il formato cartaceo.
+Entro **15 giorni dall'inizio** dell'attività è obbligatorio inviare copia del Certificato di Idoneità all'Attività Sportiva **NON AGONISTICA** a [desk@athlonroma.it](mailto:desk@athlonroma.it). Non accettiamo più il formato cartaceo.
 
-### Chi può rilasciarlo
+## Chi può rilasciarlo
 
 - Medico di medicina generale (per i propri assistiti)
 - Pediatra di libera scelta (per i propri assistiti)
 - Medico specialista in medicina dello sport / CONI
 
-### Validità e controlli
+## Validità
 
 - Controllo **annuale**
 - Validità **annuale** dalla data di rilascio
 - ECG a riposo almeno **una volta nella vita**
-- ECG annuale per over 60 con fattori di rischio cardiovascolare o patologie croniche
+- ECG annuale per **over 60** con fattori di rischio cardiovascolare
 
-### Facsimile del modello
+---
+
+## Facsimile del modello
 
 Questo è il modello previsto dalla normativa vigente:
 
@@ -33,10 +37,12 @@ Questo è il modello previsto dalla normativa vigente:
 
 ---
 
-## Certificato AGONISTICO
+## Certificato Agonistico
 
-Richiesto solo per le seguenti attività:
+<details>
+<summary><strong>Quando è richiesto il certificato agonistico?</strong></summary>
 
+Richiesto solo per:
 - Pallanuoto Under 14
 - Pallanuoto Under 16
 - Nuoto Agonistico
@@ -44,10 +50,8 @@ Richiesto solo per le seguenti attività:
 
 Può essere rilasciato **solo** da medici specialisti in medicina dello sport o dalla Federazione Medico Sportiva CONI.
 
+</details>
+
 ---
 
-## Partner consigliato
-
-Hai bisogno di un nuovo certificato? Puoi rivolgerti al nostro partner:
-
-**Centro Medico Tiziano** — [centromedicotiziano.it](https://www.centromedicotiziano.it)
+> 💡 **Partner consigliato:** [Centro Medico Tiziano](https://www.centromedicotiziano.it) — certificati non agonistici e agonistici
