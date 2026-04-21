@@ -380,3 +380,15 @@ html, body { overflow-x: hidden; }
 .area-pill-news.active,
 .area-pill-news:hover,
 .search-bar-btn { color: #fff !important; }
+
+/* Equivalente mensile in tabella — corsivo arancione */
+.article-body table td em {
+  color: var(--orange);
+  font-style: italic;
+  font-weight: 400;
+}
+.article-body table th em {
+  color: rgba(255,255,255,0.7);
+  font-style: italic;
+  font-weight: 400;
+}
