@@ -361,3 +361,22 @@ html, body { overflow-x: hidden; }
   .ci-btn-primary, .ci-btn-secondary { width: 100%; text-align: center; padding: 16px 20px; }
   .ci-hero { font-size: 16px; padding: 16px; }
 }
+
+/* ── FIX: testo bianco su tutti gli sfondi arancioni ── */
+.btn-assistenza,
+.btn-assistenza:visited,
+.btn-assistenza:hover,
+.btn-assistenza-footer,
+.btn-assistenza-footer:visited,
+.btn-assistenza-footer:hover,
+.ci-btn-primary,
+.ci-btn-primary:visited,
+.ci-btn-primary:hover,
+.article-area-badge,
+.article-area-badge:visited,
+.article-area-badge:hover,
+.area-pill.active,
+.area-pill:hover,
+.area-pill-news.active,
+.area-pill-news:hover,
+.search-bar-btn { color: #fff !important; }

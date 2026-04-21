@@ -74,7 +74,16 @@ const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abboname
   </footer>
 
   <!-- Ready2Chat bot -->
-  <script defer id="__carrierLoader__" src="//ready2chat.tm.arch01.xyz/carrier/loader.js?t=2026-04-21T10:21:45.107+00:00" data-bot-identifier="athlon-helpbot-690c80264fdcdf44c1d999bf" is:inline></script>
+  <script is:inline>
+    (function() {
+      var s = document.createElement('script');
+      s.defer = true;
+      s.id = '__carrierLoader__';
+      s.src = '//ready2chat.tm.arch01.xyz/carrier/loader.js?t=2026-04-21T10:21:45.107+00:00';
+      s.setAttribute('data-bot-identifier', 'athlon-helpbot-690c80264fdcdf44c1d999bf');
+      document.body.appendChild(s);
+    })();
+  </script>
 
 </body>
 </html>
