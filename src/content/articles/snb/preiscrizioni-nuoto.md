@@ -16,13 +16,13 @@ tags: ["iscrizione", "2026", "2027", "stagionale", "mensile", "prezzi", "quota a
 
 ## Prezzi
 
-| Frequenza | Mensile | Stagionale |
-|:---|:---:|:---:|
-| Monosettimanale | €89/mese | **€699** (-15%) |
-| Bisettimanale | €109/mese | **€850** (-15%) |
-| Agonistico / Pallanuoto | €119/mese | **€935** (-15%) |
+| Frequenza | Mensile | Stagionale | Equivalente mensile |
+|:---|:---:|:---:|:---:|
+| Monosettimanale | €89/mese | **€699** in un'unica soluzione | ~~€77,67/mese~~ |
+| Bisettimanale | €109/mese | **€850** in un'unica soluzione | ~~€94,44/mese~~ |
+| Agonistico / Pallanuoto | €119/mese | **€935** in un'unica soluzione | ~~€103,89/mese~~ |
 
-Il pagamento stagionale avviene in **soluzione unica anticipata**.
+> 💡 Lo stagionale si paga **tutto in anticipo in un'unica soluzione**. Il costo mensile indicato è solo indicativo per confronto — non è possibile rateizzarlo.
 
 ---
 
