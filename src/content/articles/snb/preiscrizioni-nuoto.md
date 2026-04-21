@@ -1,7 +1,7 @@
 ---
 title: "Iscrizione Corsi 2026/27"
 description: "Prezzi, modalità e procedura di iscrizione per la stagione 2026/2027."
-area: "Scuola Nuoto Bambini"
+area: ["Scuola Nuoto Bambini", "News"]
 order: 2
 tags: ["iscrizione", "2026", "2027", "stagionale", "mensile", "prezzi", "quota attivazione"]
 ---
@@ -10,17 +10,19 @@ tags: ["iscrizione", "2026", "2027", "stagionale", "mensile", "prezzi", "quota a
   📅 Stagione 2026/27 · Dal 14 Settembre 2026 al 20 Giugno 2027 · Iscrizioni aperte
 </div>
 
-> ✅ **Preiscrizione entro il 31 Luglio 2026** — quota di attivazione (€50) **in omaggio** + accesso all'abbonamento stagionale.
+<div class="ci-hero" style="background:#1a1a1a; margin-top: -8px;">
+  🟢 Preiscrizioni attive dal <strong>1 Maggio</strong> al <strong>31 Luglio 2026</strong> — quota attivazione (€50) in omaggio + accesso allo stagionale
+</div>
 
 > ⚠️ Dal 1° Agosto 2026 solo abbonamento mensile, senza benefit preiscrizione.
 
 ## Prezzi
 
-| Frequenza | Mensile | Stagionale | *Equiv. mensile* |
+| Frequenza | **Mensile** | Stagionale | *Equiv. mensile* |
 |:---|:---:|:---:|:---:|
-| Monosettimanale | €89/mese | **€699** in un'unica soluzione | *€77,67/mese* |
-| Bisettimanale | €109/mese | **€850** in un'unica soluzione | *€94,44/mese* |
-| Agonistico / Pallanuoto | €119/mese | **€935** in un'unica soluzione | *€103,89/mese* |
+| Monosettimanale | **€89/mese** | **€699** in un'unica soluzione | *€77,67/mese* |
+| Bisettimanale | **€109/mese** | **€850** in un'unica soluzione | *€94,44/mese* |
+| Agonistico / Pallanuoto | **€119/mese** | **€935** in un'unica soluzione | *€103,89/mese* |
 
 > 💡 Lo stagionale si paga **tutto in anticipo in un'unica soluzione**. L'equivalente mensile è solo indicativo per confronto — non è possibile rateizzarlo.
 
@@ -28,16 +30,18 @@ tags: ["iscrizione", "2026", "2027", "stagionale", "mensile", "prezzi", "quota a
 
 ## Turni disponibili
 
+> 📅 I turni saranno visibili dal **1 Maggio 2026**. Clicca sulla fascia d'età per visualizzare gli orari disponibili.
+
 <details>
 <summary><strong>Visualizza i turni per fascia d'età</strong></summary>
 
-- [Nati 2023](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=5&vacancies=1)
-- [Nati 2021-22](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=1&vacancies=1)
-- [Nati 2019-20](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=12&vacancies=1)
-- [Nati 2016-17-18](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=13&vacancies=1)
-- [Nati 2013-14-15](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=14&vacancies=1)
-- [Pallanuoto Under 16](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=25&vacancies=1)
-- [Nuoto Agonistico (2008-2015)](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=22&vacancies=1)
+- Per i nati **2023** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=5&vacancies=1)
+- Per i nati **2021-22** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=1&vacancies=1)
+- Per i nati **2019-20** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=12&vacancies=1)
+- Per i nati **2016-17-18** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=13&vacancies=1)
+- Per i nati **2013-14-15** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=14&vacancies=1)
+- **Pallanuoto Under 16** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=25&vacancies=1)
+- **Nuoto Agonistico (2008-2015)** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=22&vacancies=1)
 
 </details>
 
@@ -67,15 +71,167 @@ tags: ["iscrizione", "2026", "2027", "stagionale", "mensile", "prezzi", "quota a
 
 </details>
 
+---
+
+## Estratto Regolamento – Scuola Nuoto Bambini
+
 <details>
-<summary><strong>Periodo di preiscrizione</strong></summary>
+<summary><strong>4.1 – Certificato Medico</strong></summary>
 
-**Dal 1° Maggio al 31 Luglio 2026** — preiscrizione online con vantaggi esclusivi:
+Prima dell'inizio dell'attività è obbligatorio inviare in allegato via e-mail copia del Certificato Medico di idoneità all'attività sportiva non agonistica a **desk@athlonroma.it**. Sono esentati i soli bambini fino ai 5 anni di età. Nel caso in cui questo non avvenga, verrà tenuto sospeso il Badge personale fino a quando l'Iscritto non invierà il Certificato Medico dovuto.
 
-- ✅ Quota di attivazione (€50) completamente **in omaggio**
-- ✅ Accesso all'**abbonamento stagionale** (miglior rapporto qualità-prezzo)
+</details>
 
-Dal 1° Agosto 2026 sarà possibile iscriversi solo con abbonamento mensile, senza i benefit della preiscrizione.
+<details>
+<summary><strong>4.2 – Tesseramento</strong></summary>
+
+La nostra Società Sportiva Dilettantistica è affiliata ad ASI (Associazioni Sportive e Sociali Italiane). Per accedere ai nostri Corsi Sportivi in qualità di utente è obbligatorio essere in possesso del Tesserino ASI come Atleta. Al momento dell'iscrizione verificheremo il possesso sul database ASI; se assente, provvederemo automaticamente all'emissione di un nuovo tesseramento ASI (Tipologia B), comprensivo di copertura assicurativa per infortuni personali. Per una tipologia diversa scrivere a **desk@athlonroma.it** prima dell'attivazione.
+
+</details>
+
+<details>
+<summary><strong>4.3 – Riprese Fotografiche</strong></summary>
+
+Durante l'anno potranno essere effettuate riprese fotografiche o video. La comunicazione ufficiale verrà pubblicata con almeno **10 giorni di preavviso** su wiki.athlonroma.it. Point 2000 non è titolare del trattamento dei dati fotografici, gestiti in autonomia dallo studio fotografico incaricato (titolare ai sensi del GDPR). I file saranno conservati per massimo **90 giorni**. L'utente può esercitare i diritti di accesso, opposizione o cancellazione direttamente presso lo studio fotografico. La partecipazione agli eventi comporta consenso tacito, salvo opposizione scritta preventiva.
+
+</details>
+
+<details>
+<summary><strong>4.4 – Il Corso</strong></summary>
+
+Dal **14 Settembre 2026** al **20 Giugno 2027**. Durata lezioni: **40'** in Vasca Media, **50'** in Vasca Grande. La strutturazione dei corsi è riferita alle diverse età e livelli didattici. La suddivisione degli allievi si basa su criteri di omogeneità per età e livello tecnico. La Direzione Tecnica si riserva il diritto di cambiare l'insegnante assegnato a seconda delle diverse esigenze didattiche.
+
+</details>
+
+<details>
+<summary><strong>4.5 – Accesso al Corso</strong></summary>
+
+L'accesso agli spogliatoi è consentito esclusivamente a partire da **10 minuti prima** dell'orario di inizio. È severamente vietato l'ingresso agli spogliatoi agli accompagnatori di bambini di età superiore a **8 anni**. Per i bambini fino agli 8 anni compiuti è ammesso l'ingresso di **un solo accompagnatore**, responsabile della sorveglianza del minore per tutta la permanenza nel centro. Eventuali danni arrecati a strutture o beni del Club saranno addebitati al responsabile, inclusi gli accompagnatori.
+
+</details>
+
+<details>
+<summary><strong>4.6 – Direzione Tecnica</strong></summary>
+
+Per informazioni, chiarimenti tecnici e cambi di turno il Direttore Tecnico riceve previo **appuntamento telefonico**.
+
+</details>
+
+<details>
+<summary><strong>4.7 – Recuperi</strong></summary>
+
+È possibile recuperare le lezioni perse a condizione che l'assenza venga comunicata in anticipo mediante **cancellazione della prenotazione** dal proprio account (web o app). È l'unica modalità prevista per abilitare il recupero. I recuperi possono essere effettuati solo con abbonamento attivo e in regola con i pagamenti, entro la fine del corso.
+
+</details>
+
+<details>
+<summary><strong>4.8 – Brevetto</strong></summary>
+
+La prova di brevetto è **gratuita** e si svolge nell'ultimo mese di corso. Durante l'anno potranno essere effettuate verifiche intermedie per uniformare la didattica e valutare i progressi.
+
+</details>
+
+<details>
+<summary><strong>4.9 – Gare</strong></summary>
+
+Durante la stagione sarà possibile partecipare a Gare di Nuoto del circuito ASI, presso il nostro impianto o altri nel Comune di Roma. La partecipazione è **facoltativa e a pagamento**.
+
+</details>
+
+<details>
+<summary><strong>4.10 – Inabilità Temporanea alla Pratica Sportiva</strong></summary>
+
+In caso di malattia o infortunio con inidoneità documentata per almeno **60 giorni continuativi**, è possibile richiedere la sospensione inviando certificato medico (struttura pubblica o privata) a **desk@athlonroma.it**. La sospensione decorre dalla data di ricezione della documentazione.
+
+La sospensione è **alternativa** al recupero lezioni (punto 4.7): non è possibile cumulare i due meccanismi. Durante la sospensione il pagamento mensile rimane dovuto. Il recupero avverrà tramite un credito pari ad almeno **2 mensilità** pagate, utilizzabile entro **6 mesi** dalla fine del corso. Il credito non è trasferibile.
+
+</details>
+
+<details>
+<summary><strong>4.11 – Modalità di Adesione Mensile con Rinnovo Automatico</strong></summary>
+
+Piano mensile con rinnovo ogni **giorno 1 del mese**. Per disdire inviare email a **disdetta@athlonroma.it** entro 10 giorni dal successivo ciclo (= 240 ore prima della mezzanotte del giorno 1).
+
+| Durata del mese | Disdetta entro |
+|:---|:---:|
+| 31 giorni | mezzanotte del **21** |
+| 30 giorni | mezzanotte del **20** |
+| 28 giorni | mezzanotte del **18** |
+
+In caso di disdetta e successiva iscrizione si sarà tenuti al pagamento di una nuova quota di attivazione.
+
+</details>
+
+---
+
+## Estratto Regolamento – Settore Agonistico / Preagonistico / Pallanuoto
+
+<details>
+<summary><strong>6.1 – Durata del Corso</strong></summary>
+
+Dal **14 Settembre 2026** al **20 Giugno 2027**.
+
+</details>
+
+<details>
+<summary><strong>6.2 – Certificato Medico</strong></summary>
+
+Prima dell'inizio è obbligatorio consegnare all'Allenatore copia originale del Certificato Medico di Idoneità all'Attività Sportiva **AGONISTICA / NON AGONISTICA** (fare riferimento all'allenatore per la tipologia richiesta).
+
+</details>
+
+<details>
+<summary><strong>6.3 – Assicurazione e Tesseramento</strong></summary>
+
+Tutti gli atleti saranno tesserati ad ASI (o altro EPS relativo all'attività competitiva scelta), con polizza infortunistica inclusa ai sensi dell'art. 51 L. 289/2002 e art. 4 co. 205 L. 350/2003. Il costo è compreso nella quota versata.
+
+</details>
+
+<details>
+<summary><strong>6.4 – Gare</strong></summary>
+
+Sono comprese nella quota tutte le gare del circuito ASI (esclusi eventuali Meeting) e il campionato di Pallanuoto.
+
+</details>
+
+<details>
+<summary><strong>6.5 – Materiale Tecnico</strong></summary>
+
+È **obbligatorio** indossare il Kit Ufficiale della squadra. Il kit può essere acquistato nella propria area riservata.
+
+</details>
+
+<details>
+<summary><strong>6.6 – Frequenza</strong></summary>
+
+Orari e sede degli allenamenti sono stabiliti nel foglio del programma agonistico/preagonistico. Ogni variazione è a discrezione del Responsabile Tecnico.
+
+</details>
+
+<details>
+<summary><strong>6.7 – Inabilità Temporanea alla Pratica Sportiva</strong></summary>
+
+Stessa procedura del punto 4.10: inidoneità documentata per almeno **60 giorni**, certificato medico a **desk@athlonroma.it**. Durante la sospensione il pagamento mensile rimane dovuto. Credito pari ad almeno **2 mensilità**, utilizzabile entro **6 mesi** dalla fine del corso. Non trasferibile.
+
+</details>
+
+<details>
+<summary><strong>6.8 – Modalità di Adesione Mensile con Rinnovo Automatico</strong></summary>
+
+Stesse modalità del punto 4.11. Disdetta a **disdetta@athlonroma.it** entro 10 giorni dal ciclo successivo.
+
+| Durata del mese | Disdetta entro |
+|:---|:---:|
+| 31 giorni | mezzanotte del **21** |
+| 30 giorni | mezzanotte del **20** |
+| 28 giorni | mezzanotte del **18** |
+
+</details>
+
+<details>
+<summary><strong>6.9 – Recuperi</strong></summary>
+
+**Non è ammesso il recupero delle lezioni perse** per il settore agonistico/preagonistico/pallanuoto.
 
 </details>
 
