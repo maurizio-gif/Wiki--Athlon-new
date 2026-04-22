@@ -366,10 +366,8 @@ html, body { overflow-x: hidden; }
 /* ── FIX: testo bianco su tutti gli sfondi arancioni ── */
 .btn-assistenza,
 .btn-assistenza:visited,
-.btn-assistenza:hover,
 .btn-assistenza-footer,
 .btn-assistenza-footer:visited,
-.btn-assistenza-footer:hover,
 .ci-btn-primary,
 .ci-btn-primary:visited,
 .ci-btn-primary:hover,
@@ -381,6 +379,8 @@ html, body { overflow-x: hidden; }
 .area-pill-news.active,
 .area-pill-news:hover,
 .search-bar-btn { color: #fff !important; }
+
+.btn-assistenza:hover { color: var(--black) !important; }
 
 /* Equivalente mensile in tabella — corsivo arancione */
 .article-body table td em {
