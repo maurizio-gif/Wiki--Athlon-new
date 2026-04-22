@@ -48,3 +48,14 @@ A fine **Maggio** — evento conclusivo della stagione:
 Fissa un **appuntamento telefonico** con il nostro **Direttore Tecnico Giancarlo** tramite il pulsante "Richiedi Assistenza".
 
 </details>
+
+---
+
+## Prenota un appuntamento con il Direttore Tecnico
+
+Hai domande sulla progressione di tuo figlio, sul gruppo assegnato o su qualsiasi aspetto didattico? Puoi prenotare una chiamata direttamente con il Direttore Tecnico.
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/athlonclub/nuoto2?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ff5701" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->

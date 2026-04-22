@@ -12,15 +12,19 @@ const sorted = allArticles.sort((a, b) => {
   return a.data.title.localeCompare(b.data.title);
 });
 
-// News sempre prima, poi le altre aree alfabetiche
+// Ordine fisso: News, Generali, Adulti – Club, Scuola Nuoto Bambini
+const AREA_ORDER = ['News', 'Generali', 'Adulti – Club', 'Scuola Nuoto Bambini'];
 const allAreas: string[] = [];
 sorted.forEach(a => {
   const arr = Array.isArray(a.data.area) ? a.data.area : [a.data.area];
   arr.forEach(ar => { if (!allAreas.includes(ar)) allAreas.push(ar); });
 });
 allAreas.sort((a, b) => {
-  if (a === 'News') return -1;
-  if (b === 'News') return 1;
+  const ia = AREA_ORDER.indexOf(a);
+  const ib = AREA_ORDER.indexOf(b);
+  if (ia !== -1 && ib !== -1) return ia - ib;
+  if (ia !== -1) return -1;
+  if (ib !== -1) return 1;
   return a.localeCompare(b);
 });
 
@@ -90,9 +94,6 @@ allAreas.forEach(ar => {
             {ar} <span class="area-pill-count">({areaCount[ar]})</span>
           </a>
         ))}
-        <a href="https://www.athlonroma.it/events/" target="_blank" rel="noopener" class="area-pill area-pill-eventi">
-          🎉 Eventi
-        </a>
       </div>
 
       <div id="search-results" style="display:none; padding: 24px 56px;">

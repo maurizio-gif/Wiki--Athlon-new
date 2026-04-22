@@ -19,6 +19,14 @@ tags: ["attrezzatura", "cuffia", "costume", "certificato", "badge", "primo giorn
 
 ---
 
+## Cosa è incluso
+
+- **Docce** — disponibili negli spogliatoi, gratuite
+- **Phon** — postazioni con phon incluse in tutti gli spogliatoi. Puoi portare anche il tuo da casa se preferisci
+- **Ausili didattici** — tavolette, pull buoy, pinne e tutto il materiale didattico necessario per le lezioni è fornito dal club
+
+---
+
 ## Documenti
 
 > 📋 Il **Certificato Medico** di Idoneità Non Agonistica è obbligatorio dai **6 anni** in su. Invialo a [desk@athlonroma.it](mailto:desk@athlonroma.it) — non accettiamo il cartaceo.
