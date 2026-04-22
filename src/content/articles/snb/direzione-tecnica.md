@@ -57,6 +57,21 @@ Non c'è un argomento troppo piccolo o troppo grande. Se riguarda la vita di tuo
 
 ---
 
+## Domande frequenti
+
+<details>
+<summary><strong>Posso parlare direttamente con l'istruttore di mio figlio?</strong></summary>
+
+No — e c'è una ragione precisa. La nostra organizzazione prevede la figura del **Direttore Tecnico**, che coordina l'intero team di istruttori e gestisce le decisioni didattiche in base agli obiettivi sportivi del gruppo. È lui il tuo interlocutore ufficiale, perché ha una visione completa del percorso di ogni allievo.
+
+Gli istruttori, d'altra parte, sono impegnati in vasca durante le lezioni: il loro compito è insegnare, non rispondere a domande fuori dall'acqua. Questo garantisce qualità e concentrazione durante ogni sessione.
+
+Per qualsiasi esigenza, il Direttore Tecnico è la persona giusta — e questo servizio esiste proprio per metterti in contatto con lui in modo semplice e diretto.
+
+</details>
+
+---
+
 ## Come funziona
 
 1. **Scegli data e orario** dal calendario qui sotto

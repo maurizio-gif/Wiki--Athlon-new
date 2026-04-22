@@ -69,6 +69,17 @@ tags: ["iscrizione", "2026", "2027", "stagionale", "mensile", "prezzi", "quota a
 
 ---
 
+## Hai bisogno di maggiori informazioni?
+
+Vuoi saperne di più sull'organizzazione dei corsi, i gruppi, gli orari o semplicemente capire se la Scuola Nuoto Athlon è la scelta giusta per tuo figlio? Puoi fissare un appuntamento telefonico con la nostra assistenza — ti ricontatteremo all'orario che preferisci.
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/athlonclub/assistenza?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=ff5701" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+
+---
+
 ## Estratto Regolamento – Scuola Nuoto Bambini
 
 <details>

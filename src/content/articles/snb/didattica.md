@@ -42,13 +42,6 @@ A fine **Maggio** — evento conclusivo della stagione:
 
 </details>
 
-<details>
-<summary><strong>Hai bisogno di chiarimenti tecnici?</strong></summary>
-
-Fissa un **appuntamento telefonico** con il nostro **Direttore Tecnico Giancarlo** tramite il pulsante "Richiedi Assistenza".
-
-</details>
-
 ---
 
 ## Prenota un appuntamento con il Direttore Tecnico

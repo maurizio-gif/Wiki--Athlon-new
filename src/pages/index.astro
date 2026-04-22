@@ -8,8 +8,7 @@ const sorted = allArticles.sort((a, b) => {
   const aArea = Array.isArray(a.data.area) ? a.data.area[0] : a.data.area;
   const bArea = Array.isArray(b.data.area) ? b.data.area[0] : b.data.area;
   if (aArea !== bArea) return aArea.localeCompare(bArea);
-  if (a.data.order !== b.data.order) return (a.data.order ?? 99) - (b.data.order ?? 99);
-  return a.data.title.localeCompare(b.data.title);
+  return a.data.title.localeCompare(b.data.title, 'it');
 });
 
 // Ordine fisso: News, Generali, Adulti – Club, Scuola Nuoto Bambini

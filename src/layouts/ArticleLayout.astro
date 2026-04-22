@@ -20,7 +20,7 @@ const allArticles = await getCollection('articles');
 const sorted = allArticles.sort((a, b) => {
   const aArea = Array.isArray(a.data.area) ? a.data.area[0] : a.data.area;
   const bArea = Array.isArray(b.data.area) ? b.data.area[0] : b.data.area;
-  return aArea.localeCompare(bArea) || a.data.title.localeCompare(b.data.title);
+  return aArea.localeCompare(bArea) || a.data.title.localeCompare(b.data.title, 'it');
 });
 
 // Aree uniche per sidebar — ordine fisso

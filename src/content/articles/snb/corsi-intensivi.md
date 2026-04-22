@@ -29,7 +29,6 @@ Acquisti un pacchetto di lezioni e lo usi per prenotare i corsi tramite portale 
 | 1 | – | €25 |
 | 5 | **€110** | €120 |
 | 10 | **€190** | €210 |
-| 20 | **€320** | €360 |
 
 > ℹ️ Non è richiesta quota di iscrizione. Sarà necessario solo acquistare il **Badge per l'ingresso al costo di €5**.
 

@@ -56,6 +56,31 @@ Con contratto attivo **non è possibile** rimuovere il metodo di pagamento. Sar�
 
 </details>
 
+---
+
+## Domande frequenti
+
+<details>
+<summary><strong>Posso pagare in contanti o con carta direttamente al club?</strong></summary>
+
+No. Tutti i pagamenti degli abbonamenti avvengono esclusivamente tramite addebito automatico su carta di credito/debito o conto corrente bancario (IBAN). Non è possibile effettuare pagamenti in contanti né con carta POS in reception.
+
+</details>
+
+<details>
+<summary><strong>Posso pagare tramite bonifico bancario?</strong></summary>
+
+No, il bonifico bancario non è un metodo di pagamento accettato per gli abbonamenti. I pagamenti vengono processati in modo automatico tramite i nostri partner Adyen (carta) e GoCardless (IBAN).
+
+</details>
+
+<details>
+<summary><strong>Sono accettati i voucher sport della Regione Lazio o altri buoni?</strong></summary>
+
+No, al momento non accettiamo voucher sport della Regione Lazio né altri buoni o titoli di credito equivalenti. I soli metodi accettati sono carta di credito/debito e addebito su conto corrente (IBAN).
+
+</details>
+
 <div class="ci-cta">
   <a href="https://athlon.perfectgym.com/ClientPortal2/#/Login" class="ci-btn-primary">GESTISCI IL PAGAMENTO</a>
 </div>
