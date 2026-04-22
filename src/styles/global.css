@@ -96,8 +96,8 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
 .article-card:hover::before { transform: scaleX(1); }
 .article-card:hover .card-arrow { color: var(--orange); transform: translateX(4px); }
 .card-area-tag { font-family: var(--font-display); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em; color: var(--orange); margin-bottom: 10px; }
-.card-title { font-family: var(--font-display); font-size: 22px; font-weight: 900; line-height: 1.1; color: var(--black); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.04em; }
-.card-summary { font-size: 15px; color: var(--gray); line-height: 1.6; }
+.card-title { font-family: var(--font-display); font-size: 32px; font-weight: 900; line-height: 1.05; color: var(--black); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+.card-summary { font-size: 17px; color: var(--gray); line-height: 1.65; }
 .card-footer { margin-top: 18px; display: flex; align-items: center; justify-content: space-between; }
 .card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
 .card-tag { font-size: 12px; color: var(--gray-light); background: var(--bg2); padding: 3px 9px; }
@@ -179,8 +179,8 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
   .btn-tc { font-size: 12px; padding: 7px 12px; }
   .hero-title { font-size: 36px; }
   .hero-sub { font-size: 15px; }
-  .card-title { font-size: 18px; }
-  .card-summary { font-size: 14px; }
+  .card-title { font-size: 26px; }
+  .card-summary { font-size: 16px; }
   .article-title { font-size: 34px; }
   .article-body { font-size: 17px; }
   .article-body h2 { font-size: 26px; }
@@ -255,6 +255,30 @@ html, body { overflow-x: hidden; }
   background: #e8b000 !important;
   border-color: #e8b000 !important;
   color: #fff !important;
+}
+
+/* Eventi pill — giallo caldo, distinto dagli altri */
+.area-pill-eventi {
+  background: #fff8e6 !important;
+  border-color: #f5a623 !important;
+  color: #c07800 !important;
+  font-weight: 700;
+}
+.area-pill-eventi:hover {
+  background: #f5a623 !important;
+  border-color: #f5a623 !important;
+  color: #fff !important;
+}
+
+/* Sidebar eventi */
+.sidebar-link-eventi {
+  color: #c07800 !important;
+  border-left-color: #f5a623 !important;
+}
+.sidebar-link-eventi:hover {
+  color: #fff !important;
+  background: #f5a623 !important;
+  border-left-color: #f5a623 !important;
 }
 
 /* Mobile */
