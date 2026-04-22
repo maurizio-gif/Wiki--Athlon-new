@@ -334,29 +334,33 @@ html, body { overflow-x: hidden; }
   background: var(--orange);
   color: #fff;
   font-family: var(--font-display);
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 18px;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding: 18px 56px;
+  letter-spacing: 0.12em;
+  padding: 16px 48px;
   text-decoration: none;
-  transition: background 0.15s;
+  transition: all 0.15s;
+  border: 2px solid var(--orange);
+  border-radius: 100px;
 }
-.ci-btn-primary:hover { background: var(--orange-light); border-bottom: none; }
+.ci-btn-primary:hover { background: transparent; color: var(--black); border-color: var(--black); }
 .ci-btn-secondary {
   display: inline-block;
   background: var(--black);
-  color: var(--orange);
+  color: #fff;
   font-family: var(--font-display);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.12em;
   padding: 16px 48px;
   text-decoration: none;
-  transition: opacity 0.15s;
+  transition: all 0.15s;
+  border: 2px solid var(--black);
+  border-radius: 100px;
 }
-.ci-btn-secondary:hover { opacity: 0.85; border-bottom: none; }
+.ci-btn-secondary:hover { background: transparent; color: var(--black); }
 
 @media (max-width: 768px) {
   .ci-btn-primary, .ci-btn-secondary { width: 100%; text-align: center; padding: 16px 20px; }
