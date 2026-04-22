@@ -1,7 +1,7 @@
 ---
 title: "Spogliatoi"
 description: "Posizione, dotazioni e regole degli spogliatoi femminili, maschili e baby."
-area: ["Adulti – Club", "Scuola Nuoto Bambini"]
+area: "Generali"
 order: 6
 tags: ["spogliatoio", "armadietto", "lucchetto", "docce", "phon"]
 ---
