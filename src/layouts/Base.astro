@@ -34,10 +34,7 @@ const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abboname
     </a>
     <div class="header-divider"></div>
     <div class="header-spacer"></div>
-    <button
-      class="btn-chat"
-      onclick="if(window.ready2chat){window.ready2chat.open()}else{window.open('https://zgcrbhl8m6b.typeform.com/WikiAthlon?utm_source=wiki&utm_medium=chat&utm_campaign=chat','_blank')}"
-    >
+    <button class="btn-chat" id="btn-open-chat">
       💬 Chatta con noi
     </button>
     <a
@@ -50,12 +47,12 @@ const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abboname
     </a>
   </header>
 
-  <!-- EVENTI BAR -->
-  <a href="https://www.athlonroma.it/events/" target="_blank" rel="noopener" class="events-bar">
+  <!-- BANNER BAR -->
+  <div class="events-bar">
     <span class="events-bar-label">🎉 EVENTI</span>
     <span class="events-bar-text">Scopri tutti gli eventi in programma ad Athlon Club</span>
-    <span class="events-bar-cta">Vedi gli eventi →</span>
-  </a>
+    <button class="events-bar-cta" id="btn-open-chat">💬 Chatta con noi</button>
+  </div>
 
   <slot />
 
@@ -85,26 +82,30 @@ const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abboname
     </div>
   </footer>
 
-  <!-- Floating assistenza button -->
-  <a
-    href="https://zgcrbhl8m6b.typeform.com/WikiAthlon?utm_source=wiki&utm_medium=floating&utm_campaign=assistenza"
-    target="_blank"
-    rel="noopener"
-    class="floating-chat-btn"
-    aria-label="Richiedi Assistenza"
-  >
-    <span class="floating-chat-icon">💬</span>
-    <span class="floating-chat-label">RICHIEDI ASSISTENZA</span>
-  </a>
-
   <!-- Ready2Chat bot -->
   <script is:inline>
     (function() {
       var s = document.createElement('script');
       s.defer = true;
       s.id = '__carrierLoader__';
-      s.src = 'https://ready2chat.tm.arch01.xyz/carrier/loader.js?t=2026-04-22T08:56:12.530+00:00';
+      s.src = 'https://ready2chat.tm.arch01.xyz/carrier/loader.js?t=2026-04-22T09:14:40.954+00:00';
       s.setAttribute('data-bot-identifier', 'athlon-helpbot-690c80264fdcdf44c1d999bf');
+      s.onload = function() {
+        // Collega il pulsante al widget dopo il caricamento
+        var btn = document.getElementById('btn-open-chat');
+        if (btn) {
+          btn.addEventListener('click', function() {
+            // Prova i metodi comuni delle chat widget
+            if (window.Carrier && window.Carrier.open) { window.Carrier.open(); }
+            else if (window.ready2chat && window.ready2chat.open) { window.ready2chat.open(); }
+            else {
+              // Simula click sull'elemento del widget nel DOM
+              var widget = document.querySelector('[data-carrier-widget], .carrier-widget-button, #carrier-widget-button, [class*="carrier"], [id*="carrier"]');
+              if (widget) { widget.click(); }
+            }
+          });
+        }
+      };
       document.body.appendChild(s);
     })();
   </script>

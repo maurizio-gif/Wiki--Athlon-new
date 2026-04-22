@@ -437,9 +437,11 @@ html, body { overflow-x: hidden; }
   flex-shrink: 0;
   white-space: nowrap;
   border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s;
 }
-.events-bar:hover { background: var(--orange-light); }
-.events-bar:hover .events-bar-cta { color: var(--orange-light); }
+.events-bar-cta:hover { background: var(--black); color: #fff; }
 
 /* Adatta il layout alla barra eventi */
 :root { --events-bar-h: 40px; }
@@ -525,4 +527,14 @@ html, body { overflow-x: hidden; }
 @media (max-width: 768px) {
   .btn-chat { font-size: 12px; padding: 7px 12px; }
   .btn-assistenza { display: none; }
+}
+
+/* ── AREA PILL EVENTI ── */
+.area-pill-eventi {
+  border-color: var(--orange) !important;
+  color: var(--orange) !important;
+}
+.area-pill-eventi:hover {
+  background: var(--orange) !important;
+  color: #fff !important;
 }
