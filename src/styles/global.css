@@ -136,7 +136,11 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
 .article-body pre { background: var(--bg3); padding: 20px; overflow-x: auto; margin: 20px 0; border-left: 4px solid var(--orange); }
 .article-body pre code { background: none; padding: 0; font-size: 15px; }
 .article-body hr { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
-.article-body table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 17px; }
+.article-body table { width: 100%; border-collapse: collapse; margin: 0; font-size: 17px; min-width: 500px; }
+.article-body table { display: table; } /* ensure block-level */
+
+/* Wrap all tables in scrollable div via CSS trick */
+.article-body .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 24px 0; }
 .article-body th { background: var(--black); color: #fff; font-family: var(--font-display); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 14px 18px; text-align: left; font-size: 14px; }
 .article-body td { padding: 13px 18px; border-bottom: 1px solid var(--border); }
 .article-body tr:nth-child(even) td { background: var(--bg2); }
@@ -158,6 +162,8 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
 
 /* MOBILE */
 @media (max-width: 768px) {
+  /* Tables scroll horizontally on mobile */
+  .article-body table { font-size: 15px; min-width: 400px; }
   html { font-size: 16px; }
   .sidebar { display: none; }
   .home-hero { padding: 28px 20px 24px; }

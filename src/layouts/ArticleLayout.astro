@@ -166,4 +166,13 @@ const currentURL = `https://wiki.athlonroma.it/wikiathlon/${slug}/`;
       link.setAttribute('rel', 'noopener noreferrer');
     }
   });
+
+  // Wrappa tutte le tabelle in un div scrollabile
+  document.querySelectorAll('.article-body table').forEach(table => {
+    const wrapper = document.createElement('div');
+    wrapper.style.cssText = 'overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0;';
+    table.parentNode?.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+    (table as HTMLElement).style.margin = '0';
+  });
 </script>
