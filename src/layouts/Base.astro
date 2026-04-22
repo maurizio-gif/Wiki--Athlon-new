@@ -34,13 +34,19 @@ const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abboname
     </a>
     <div class="header-divider"></div>
     <div class="header-spacer"></div>
+    <button
+      class="btn-chat"
+      onclick="if(window.ready2chat){window.ready2chat.open()}else{window.open('https://zgcrbhl8m6b.typeform.com/WikiAthlon?utm_source=wiki&utm_medium=chat&utm_campaign=chat','_blank')}"
+    >
+      💬 Chatta con noi
+    </button>
     <a
       href="https://zgcrbhl8m6b.typeform.com/WikiAthlon?utm_source=wiki&utm_medium=header&utm_campaign=assistenza"
       target="_blank"
       rel="noopener"
       class="btn-assistenza"
     >
-      💬 Richiedi Assistenza
+      Richiedi Assistenza
     </a>
   </header>
 
@@ -58,8 +64,7 @@ const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abboname
       <div class="footer-info">
         <strong>Point 2000 Srl – Società Sportiva Dilettantistica</strong><br/>
         Via Ugo Ojetti 134, 00137 Roma &nbsp;|&nbsp;
-        P.IVA IT05154811003 &nbsp;|&nbsp;
-        <a href="mailto:desk@athlonroma.it">desk@athlonroma.it</a><br/>
+        P.IVA IT05154811003<br/>
         Affiliazione ASI: LAZ-RM4453 &nbsp;|&nbsp; FIN: 996434 &nbsp;|&nbsp; CSEN: 71519
       </div>
       <a
@@ -80,13 +85,25 @@ const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abboname
     </div>
   </footer>
 
+  <!-- Floating assistenza button -->
+  <a
+    href="https://zgcrbhl8m6b.typeform.com/WikiAthlon?utm_source=wiki&utm_medium=floating&utm_campaign=assistenza"
+    target="_blank"
+    rel="noopener"
+    class="floating-chat-btn"
+    aria-label="Richiedi Assistenza"
+  >
+    <span class="floating-chat-icon">💬</span>
+    <span class="floating-chat-label">RICHIEDI ASSISTENZA</span>
+  </a>
+
   <!-- Ready2Chat bot -->
   <script is:inline>
     (function() {
       var s = document.createElement('script');
       s.defer = true;
       s.id = '__carrierLoader__';
-      s.src = 'https://ready2chat.tm.arch01.xyz/carrier/loader.js?t=2026-04-21T10:53:03.097+00:00';
+      s.src = 'https://ready2chat.tm.arch01.xyz/carrier/loader.js?t=2026-04-22T08:56:12.530+00:00';
       s.setAttribute('data-bot-identifier', 'athlon-helpbot-690c80264fdcdf44c1d999bf');
       document.body.appendChild(s);
     })();
