@@ -473,5 +473,5 @@ html, body { overflow-x: hidden; }
 
 @media (max-width: 768px) {
   .btn-chat { font-size: 12px; padding: 7px 12px; }
-  .btn-assistenza { display: none; }
+  /* btn-assistenza always visible */
 }
