@@ -16,6 +16,17 @@ const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abboname
   <meta name="description" content={description} />
   <title>{title} – Athlon Wiki</title>
   <link rel="icon" type="image/png" href="/favicon.png" />
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={`${title} – Athlon Wiki`} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content="https://athlon-wiki.netlify.app/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="Athlon Club 4.0 – Help Desk" />
+  <!-- Twitter / WhatsApp -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://athlon-wiki.netlify.app/og-image.jpg" />
   <script>
     (function() {
       const hash = window.location.hash;
@@ -34,9 +45,6 @@ const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abboname
     </a>
     <div class="header-divider"></div>
     <div class="header-spacer"></div>
-    <button class="btn-chat" id="btn-open-chat">
-      💬 Chatta con noi
-    </button>
     <a
       href="https://zgcrbhl8m6b.typeform.com/WikiAthlon?utm_source=wiki&utm_medium=header&utm_campaign=assistenza"
       target="_blank"
@@ -46,13 +54,6 @@ const { title = 'Athlon Wiki', description = 'Procedure e FAQ Athlon su abboname
       Richiedi Assistenza
     </a>
   </header>
-
-  <!-- BANNER BAR -->
-  <div class="events-bar">
-    <span class="events-bar-label">🎉 EVENTI</span>
-    <span class="events-bar-text">Scopri tutti gli eventi in programma ad Athlon Club</span>
-    <button class="events-bar-cta" id="btn-open-chat">💬 Chatta con noi</button>
-  </div>
 
   <slot />
 
