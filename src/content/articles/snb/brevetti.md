@@ -44,28 +44,33 @@ Durante queste giornate speciali:
 
 ---
 
-## Riprese fotografiche — Diritto di opposizione
+## 📸 Fotografi — Zeroseiphoto Agency
 
-Durante le giornate dei brevetti sarà presente un team di fotografi professionisti esterni (**Zeroseiphoto Agency**), incaricato di documentare l'evento con foto e video.
+Il team di **[Zeroseiphoto Agency](https://www.zeroseiphoto.it)** sarà presente per tutti e 7 i giorni della settimana dei brevetti con i seguenti orari:
 
-> ⚠️ **Point 2000 Srl non è titolare del trattamento dei dati fotografici.** Le riprese sono gestite in piena autonomia dallo studio fotografico incaricato, che opera in qualità di autonomo titolare del trattamento ai sensi del Regolamento UE 679/2016 (GDPR). I file digitali saranno conservati dallo studio per un massimo di **90 giorni**, salvo diverso accordo diretto con l'interessato.
+| Giorno | Orari |
+|:---|:---|
+| Lunedì – Venerdì | 15:00 – 19:00 |
+| Sabato | 9:30 – 12:00 e 15:00 – 19:00 |
 
-La partecipazione all'evento comporta **consenso tacito** alla ripresa fotografica e video.
+Durante questi orari potrai **visionare e acquistare le foto** direttamente in sede.
 
-**Chi non desiderasse essere fotografato o ripreso — per sé o per il proprio figlio minore — è tenuto a comunicarlo preventivamente e direttamente al team di fotografi**, prima dell'inizio delle attività. Point 2000 Srl declina ogni responsabilità per le riprese effettuate in assenza di tale comunicazione.
-
-<details>
-<summary><strong>📞 Contatti Zeroseiphoto Agency</strong></summary>
-
-**Zeroseiphoto Agency — Fotografi e Videomakers**
+Nei giorni successivi alla settimana dei brevetti, le foto potranno essere acquistate contattando direttamente i fotografi:
 
 - Fabio Favazzi — [+39 329 53 20 995](tel:+393295320995)
 - Gianluca Giardina — [+39 329 41 79 936](tel:+393294179936)
-- Email: [zeroseiphoto@gmail.com](mailto:zeroseiphoto@gmail.com)
-- Web: [www.zeroseiphoto.it](https://www.zeroseiphoto.it)
-- Sede: Via Arnaldo Cervesato 24, 00159 Roma
+- [zeroseiphoto@gmail.com](mailto:zeroseiphoto@gmail.com) · [www.zeroseiphoto.it](https://www.zeroseiphoto.it)
 
-Puoi esercitare i tuoi diritti di accesso, opposizione o cancellazione delle immagini **esclusivamente** contattando direttamente lo studio fotografico ai recapiti sopra indicati.
+<details>
+<summary><strong>Diritto di opposizione alle riprese fotografiche</strong></summary>
+
+Le riprese fotografiche e video sono gestite in piena autonomia da **Zeroseiphoto Agency**, che opera in qualità di autonomo titolare del trattamento ai sensi del Regolamento UE 679/2016 (GDPR). Point 2000 Srl non è titolare del trattamento dei dati raccolti in occasione delle riprese.
+
+La partecipazione all'evento comporta consenso tacito alla ripresa fotografica e video.
+
+**Chi non desiderasse essere fotografato o ripreso — per sé o per il proprio figlio minore — è tenuto a comunicarlo preventivamente e direttamente al team di fotografi**, prima dell'inizio delle attività. Point 2000 Srl declina ogni responsabilità per le riprese effettuate in assenza di tale comunicazione.
+
+I file digitali saranno conservati dallo studio per un massimo di 90 giorni. I diritti di accesso, opposizione o cancellazione delle immagini possono essere esercitati **esclusivamente** contattando direttamente Zeroseiphoto Agency ai recapiti sopra indicati.
 
 </details>
 
