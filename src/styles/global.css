@@ -121,8 +121,8 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
 .article-body p { margin-bottom: 24px; }
 .article-body strong, .article-body b { color: var(--black); font-weight: 700; }
 .article-body em { font-style: italic; }
-.article-body h2 { font-family: var(--font-display); font-size: 34px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.06em; color: var(--black); margin: 48px 0 18px; padding-bottom: 12px; border-bottom: 3px solid var(--orange); }
-.article-body h3 { font-family: var(--font-display); font-size: 26px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--black); margin: 36px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+.article-body h2 { font-family: var(--font-body); font-size: 26px; font-weight: 800; text-transform: none; letter-spacing: -0.01em; color: var(--black); margin: 48px 0 18px; padding-bottom: 12px; border-bottom: 3px solid var(--orange); }
+.article-body h3 { font-family: var(--font-body); font-size: 20px; font-weight: 700; text-transform: none; letter-spacing: 0; color: var(--black); margin: 36px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
 .article-body h4 { font-family: var(--font-display); font-size: 20px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gray); margin: 28px 0 12px; }
 .article-body ul, .article-body ol { margin: 14px 0 26px 28px; }
 .article-body ul li, .article-body ol li { margin-bottom: 12px; padding-left: 6px; font-size: 18px; line-height: 1.75; }
@@ -183,8 +183,8 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
   .card-summary { font-size: 16px; }
   .article-title { font-size: 34px; }
   .article-body { font-size: 17px; }
-  .article-body h2 { font-size: 26px; }
-  .article-body h3 { font-size: 22px; }
+  .article-body h2 { font-size: 22px; }
+  .article-body h3 { font-size: 18px; }
   .article-body ul li, .article-body ol li { font-size: 17px; }
   .article-summary-block p { font-size: 17px; }
   .article-nav { grid-template-columns: 1fr; }
