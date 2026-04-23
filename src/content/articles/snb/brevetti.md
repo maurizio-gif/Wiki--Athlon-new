@@ -1,5 +1,5 @@
 ---
-title: "Settimana dei Brevetti 2026"
+title: "Brevetti"
 description: "Date, modalità e informazioni sulla sessione di brevetti di fine stagione per la Scuola Nuoto e Baby Nuoto."
 area: ["Scuola Nuoto Bambini", "News"]
 order: 1
