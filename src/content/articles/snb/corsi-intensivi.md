@@ -116,7 +116,7 @@ Pacchetti disponibili da 1, 5, 10 o 20 lezioni. Da consumare entro il **30/06/20
 <details>
 <summary><strong>11.7 – Prenotazione</strong></summary>
 
-Prenotazione esclusivamente tramite Portale Web o App. Le prenotazioni saranno disponibili a partire dal **16 Maggio 2026**, fino a **3 giorni prima** della lezione desiderata.
+Prenotazione esclusivamente tramite Portale Web o App. Le prenotazioni saranno disponibili a partire dal **16 Maggio 2026**.
 
 </details>
 
