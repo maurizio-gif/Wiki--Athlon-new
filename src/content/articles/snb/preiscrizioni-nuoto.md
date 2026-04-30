@@ -13,7 +13,24 @@ tags: ["iscrizione", "2026", "2027", "stagionale", "mensile", "prezzi", "quota a
 
 > ⚠️ Dal 1° Agosto 2026 solo abbonamento mensile, senza benefit preiscrizione.
 
-## Prezzi
+## Turni disponibili
+
+> 📅 I turni saranno visibili dal **1 Maggio 2026**. Clicca sulla fascia d'età per visualizzare gli orari disponibili.
+
+- Per i nati **2023** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=5&vacancies=1)
+- Per i nati **2021-22** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=1&vacancies=1)
+- Per i nati **2019-20** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=12&vacancies=1)
+- Per i nati **2016-17-18** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=13&vacancies=1)
+- Per i nati **2013-14-15** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=14&vacancies=1)
+- **Pallanuoto Under 14** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=25&vacancies=1)
+- **Nuoto Agonistico (2008-2015)** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=22&vacancies=1)
+
+---
+
+## Prezzi e dettagli economici
+
+<details>
+<summary><strong>Visualizza prezzi, pro-rata e dettagli abbonamento</strong></summary>
 
 | Frequenza | **Mensile** | Stagionale | *Equiv. mensile* |
 |:---|:---:|:---:|:---:|
@@ -23,31 +40,14 @@ tags: ["iscrizione", "2026", "2027", "stagionale", "mensile", "prezzi", "quota a
 
 > 💡 Lo stagionale si paga **tutto in anticipo in un'unica soluzione**. L'equivalente mensile è solo indicativo per confronto — non è possibile rateizzarlo.
 
-> \* **Pro-rata mesi di apertura e chiusura:** per i mesi di Settembre (inizio 14/09) e Giugno (fine 20/06) viene addebitato l'importo proporzionale ai giorni effettivi di frequenza.
->
-> | | Monosettimanale | Bisettimanale | Agonistico/Pallanuoto |
-> |:---|:---:|:---:|:---:|
-> | **Settembre** (17 gg) | €50 | €62 | €67 |
-> | **Giugno** (20 gg) | €59 | €73 | €79 |
->
-> *Calcolo: quota mensile ÷ 30 × giorni effettivi*
+**Pro-rata mesi di apertura e chiusura:** per i mesi di Settembre (inizio 14/09) e Giugno (fine 20/06) viene addebitato l'importo proporzionale ai giorni effettivi di frequenza.
 
----
+| | Monosettimanale | Bisettimanale | Agonistico/Pallanuoto |
+|:---|:---:|:---:|:---:|
+| **Settembre** (17 gg) | €50 | €62 | €67 |
+| **Giugno** (20 gg) | €59 | €73 | €79 |
 
-## Turni disponibili
-
-> 📅 I turni saranno visibili dal **1 Maggio 2026**. Clicca sulla fascia d'età per visualizzare gli orari disponibili.
-
-<details>
-<summary><strong>Visualizza i turni per fascia d'età</strong></summary>
-
-- Per i nati **2023** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=5&vacancies=1)
-- Per i nati **2021-22** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=1&vacancies=1)
-- Per i nati **2019-20** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=12&vacancies=1)
-- Per i nati **2016-17-18** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=13&vacancies=1)
-- Per i nati **2013-14-15** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=14&vacancies=1)
-- **Pallanuoto Under 16** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=25&vacancies=1)
-- **Nuoto Agonistico (2008-2015)** → [clicca qui](https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?ageLimitId=22&vacancies=1)
+*Calcolo: quota mensile ÷ 30 × giorni effettivi*
 
 </details>
 
@@ -253,6 +253,6 @@ Stesse modalità del punto 4.11. Disdetta a **disdetta@athlonroma.it** entro 10 
 </details>
 
 <div class="ci-cta">
-  <a href="https://athlon.perfectgym.com/ClientPortal2/#/Login" class="ci-btn-primary">ISCRIVITI ORA</a>
+  <a href="https://athlon.perfectgym.com/ClientPortal2/#/Groups/1?vacancies=1" class="ci-btn-primary">ISCRIVITI ORA</a>
   <a href="https://athlon.perfectgym.com/ClientPortal2/#/ForgotPassword" class="ci-btn-secondary">RESET PASSWORD</a>
 </div>
